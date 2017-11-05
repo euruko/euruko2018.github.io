@@ -15,7 +15,14 @@ body {
 }
 
 form {
+  input[type="email"] {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 12px;
+    margin-bottom: 1rem;
+  }
   input[type="submit"] {
+    display: block;
     background-color: $dark-gray;
     border-radius: 5px;
     border: none;
