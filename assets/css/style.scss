@@ -3,6 +3,8 @@
 
 $soft-red: #fd9e9a;
 $hard-red: #fc5834;
+$dark-gray: #595959;
+$light-gray: #9d9e9d;
 $section-headings-color: $soft-red;
 @import "{{ site.theme }}";
 
@@ -10,9 +12,26 @@ body {
   font-family: "Futura", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+form {
+  input[type="submit"] {
+    background-color: $dark-gray;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    &:hover {
+      background-color: $light-gray;
+    }
+  }
+}
+
 .page-header {
   background: $soft-red;
-  color: #595959;
+  color: $dark-gray;
   position: relative;
   &:after {
     background: linear-gradient(-45deg, #ffffff 32px, transparent 0), linear-gradient(45deg, #ffffff 32px, transparent 0);
