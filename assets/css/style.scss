@@ -1,6 +1,9 @@
 ---
 ---
 
+$soft-red: #fd9e9a;
+$hard-red: #fc5834;
+$section-headings-color: $soft-red;
 @import "{{ site.theme }}";
 
 body {
@@ -8,8 +11,8 @@ body {
 }
 
 .page-header {
-  background: #fd9e9a;
-  color: #000;
+  background: $soft-red;
+  color: #595959;
   position: relative;
   &:after {
     background: linear-gradient(-45deg, #ffffff 32px, transparent 0), linear-gradient(45deg, #ffffff 32px, transparent 0);
