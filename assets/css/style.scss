@@ -5,7 +5,7 @@ $soft-red: #fd9e9a;
 $hard-red: #fc5834;
 $dark-gray: #595959;
 $light-gray: #9d9e9d;
-$section-headings-color: $soft-red;
+$section-headings-color: $hard-red;
 @import "{{ site.theme }}";
 
 body {
