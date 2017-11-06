@@ -1,0 +1,63 @@
+---
+---
+
+$soft-red: #fd9e9a;
+$hard-red: #fc5834;
+$dark-gray: #595959;
+$light-gray: #9d9e9d;
+$light-blue: #5ed9fd;
+$lighter-blue: #a8ebfe;
+$section-headings-color: $hard-red;
+@import "{{ site.theme }}";
+
+body {
+  font-family: "Futura", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+form {
+  input[type="email"] {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 12px;
+    margin-bottom: 1rem;
+  }
+  input[type="submit"] {
+    display: block;
+    background-color: $hard-red;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    &:hover {
+      background-color: $soft-red;
+    }
+  }
+}
+
+.page-header {
+  background: $light-blue;
+  // TODO: Do we use the gradient from the logo? I'm not loving it here. Maybe the clouds and stuff would help...
+  /*background: -webkit-linear-gradient(left, $light-blue , $lighter-blue); [> For Safari 5.1 to 6.0 <]*/
+  /*background: -o-linear-gradient(right, $light-blue, $lighter-blue); [> For Opera 11.1 to 12.0 <]*/
+  /*background: -moz-linear-gradient(right, $light-blue, $lighter-blue); [> For Firefox 3.6 to 15 <]*/
+  /*background: linear-gradient(to right, $light-blue, $lighter-blue); [> Standard syntax <]*/
+  color: $dark-gray;
+  position: relative;
+  &:after {
+    background: linear-gradient(-45deg, #ffffff 32px, transparent 0), linear-gradient(45deg, #ffffff 32px, transparent 0);
+    background-position: left-bottom;
+    background-repeat: repeat-x;
+    background-size: 64px 64px;
+    content: " ";
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 64px;
+  }
+}
