@@ -4,7 +4,7 @@
 
 1. Clone the repository:
 
-    $ git clone git@github.com:euruko/euruko2018.github.io.git
+    $ git clone https://github.com/euruko/euruko2018.github.io.git
 
 2. Install dependencies:
 
@@ -12,7 +12,7 @@
 
 3. Start up the server:
 
-    $ jekyll serve --incremental
+    $ jekyll server --incremental
 
 ## Where what is?
 
