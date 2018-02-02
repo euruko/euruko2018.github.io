@@ -98,13 +98,13 @@ section {
   }
 
   img {
-    height: 260px;
+    max-height: 260px;
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
   }
 }
 
-button,
+.button,
 input[type=button],
 input[type=submit] {
   color: white;
