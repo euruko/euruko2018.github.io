@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
 <head>
-  <meta charset="UTF-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+
 
   {% seo %}
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#157878">
+
   <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,700" rel="stylesheet">
   <link rel="stylesheet" href="{{ '/assets/css/general.css?v=' | append: site.github.build_revision | relative_url }}">
 </head>
@@ -17,13 +18,13 @@
     <img src="/assets/images/logo.svg" width="200" height="40" />
   </a>
 
-  <div row grow class="menu">
+  <div row grow class="menu h-hidden-phone">
     <a href="/coc">CoC</a>
     <a href="/#announcements">Announcements</a>
     <a href="/#newsletter">Newsletter</a>
   </div>
 
-  <div row class="social-buttons">
+  <div row class="social-buttons h-hidden-phone">
     <a href="https://facebook.com">
       <div><img src="/assets/images/services/facebook.svg" width="28" height="28" /></div>
     </a>
