@@ -1,6 +1,9 @@
 title: EURUKO 2018
-description: Coming to a Vienna, Austria near you!
+description: The 2018 edition of the European Ruby conference
 show_downloads: false
 github:
   is_project_page: false
 theme: jekyll-theme-cayman
+sass:
+    sass_dir: assets/css/lib
+    style: compressed

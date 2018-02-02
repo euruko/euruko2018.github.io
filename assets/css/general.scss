@@ -1,0 +1,132 @@
+---
+---
+
+@import "flexbox";
+@import "config";
+
+body {
+  font-family: "Raleway", Helvetica, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  color: $grey;
+}
+
+h1 {
+  font-size: 40px;
+  margin: 0;
+}
+h2 {
+  font-size: 32px;
+  margin: 0;
+}
+h3 {
+  font-size: 24px;
+  margin: 0;
+}
+h4 {
+  font-size: 20px;
+  margin: 0;
+}
+h5 {
+  font-size: 18px;
+  margin: 0;
+}
+.c-red {
+  color: $red;
+}
+.c-grey {
+  color: $grey;
+}
+.c-white {
+  color: white;
+}
+.c-blue {
+  color: blue;
+}
+
+a {
+  color: $grey;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+nav {
+  padding: 30px 40px;
+
+  .menu {
+    margin-left: 18px;
+
+    a {
+      margin: 0 25px;
+    }
+  }
+}
+
+section {
+  margin: 0 120px;
+
+  .header {
+    margin-bottom: 50px;
+    display: inline-block;
+
+    .spacing {
+      width: 50px;
+    }
+
+    .border {
+      height: 4px;
+      background-image: linear-gradient(to right, $red2, #ff564c);
+    }
+  }
+
+  .content {
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 1px 4px 0 rgba(89, 89, 89, 0.2);
+
+    div[column] {
+      padding: 40px;
+    }
+  }
+
+  img {
+    height: 260px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+  }
+}
+
+button,
+input[type=button],
+input[type=submit] {
+  color: white;
+  background-color: $red;
+  padding: 12px 20px;
+  border-radius: 8px;
+  border: none;
+  font-size: 22px;
+}
+
+content {
+  display: block;
+  margin: 40px 0;
+}
+
+.social-buttons a {
+  margin: 0 10px;
+}
+.social-buttons img {
+  display: inline-block;
+}
+
+footer {
+  padding: 60px 120px;
+  border-top: 1px solid $grey2;
+
+  a {
+    font-size: $fs-small;
+  }
+}
