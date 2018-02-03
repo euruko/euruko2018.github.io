@@ -11,9 +11,9 @@ layout: default
   <div column class="sponsor-list">
     <div row>
       <div grow>
-      <a href="https://www.meisterlabs.com/" target="_blank">
-        <img src="/assets/images/sponsors/meisterlabs.svg" height="40" />
-      </a>
+        <a href="https://www.meisterlabs.com/" target="_blank">
+          <img src="/assets/images/sponsors/meisterlabs.svg" height="40" />
+        </a>
       </div>
 
       <a href="mailto:euruko2018@gmail.com" target="_blank">Want to sponsor?</a>
@@ -38,15 +38,13 @@ layout: default
     </div>
 
     {% for post in site.posts %}
-      <a class="post-content" href="{{post.url}}">
-        <div row class="content">
-          <img src="/assets/images/posts/{{ post.image }}" />
-          <div column>
-            <h3>{{ post.title }}</h3>
-            {{ post.content }}
-          </div>
-        </div>
-      </a>
+    <div row class="content">
+      <img src="/assets/images/posts/{{ post.image }}" />
+      <div column>
+        <h3><a href="{{post.url}}">{{ post.title }}</a></h3>
+        {{ post.content }}
+      </div>
+    </div>
     {% endfor %}
   </section>
 </content>

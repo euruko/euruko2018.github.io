@@ -92,9 +92,17 @@ section {
     background-color: white;
     box-shadow: 0 1px 4px 0 rgba(89, 89, 89, 0.2);
 
+    h3 {
+      margin-bottom: 30px;
+    }
+
     div[column] {
       padding: 40px;
     }
+  }
+
+  .meta {
+    color: $grey2;
   }
 
   img {
