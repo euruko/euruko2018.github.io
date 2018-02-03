@@ -18,6 +18,15 @@
   }
 }
 
+a.post-content {
+  .content {
+    margin-bottom: 1em;
+  }
+  &:hover {
+    text-decoration: none;
+  }
+}
+
 .website-description {
   margin: 20px 0 100px 0;
   font-size: $fs-medium;

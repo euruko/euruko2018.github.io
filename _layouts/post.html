@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+<content class="post">
+  <div class="measure">
+    {% assign minutes = content | strip_html | number_of_words | divided_by: 180 %}
+    {% if minutes == 0 %}
+    {% assign minutes = 1 %}
+    {% endif %}
+
+    <div class="post-header">
+      <h1>{{ page.title }}</h1>
+      <span class="post-meta">{{ page.date | date: site.date_format }}</span><br>
+      {% if page.minutes %}
+        {{ page.minutes }} minute read
+      {% else %}
+        {{ minutes }} minute read
+      {% endif %}
+    </div>
+
+    <article class="post-content">
+      {{ content }}
+    </article>
+
+  </div>
+</content>
