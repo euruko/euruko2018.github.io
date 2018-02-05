@@ -1,4 +1,6 @@
-.button {
+.button,
+input[type=button],
+input[type=submit] {
     padding: 12px 20px;
     font-size: $fs-p;
     font-weight: $fw-medium;
@@ -14,7 +16,9 @@
     text-decoration: none;
 }
 
-.button.large {
+.button.large,
+input[type=button].large,
+input[type=submit].large {
     padding: 14px 30px;
     font-size: $fs-h3;
     font-weight: $fw-bold;

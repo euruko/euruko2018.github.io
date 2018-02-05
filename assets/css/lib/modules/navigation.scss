@@ -1,0 +1,37 @@
+@import "includes";
+
+.navigation {
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    
+    .navigation-wrapper {
+        flex-basis: $page-width;
+        flex-wrap: wrap;
+    }
+
+    .menu {
+        margin: 0 50px;
+        flex-grow: 1;
+        align-items: center;
+
+        a {
+            font-size: $fs-h4;
+            font-weight: $fw-medium;
+            color: $grey;
+            text-decoration: none;
+            margin-right: 50px;
+            white-space: nowrap;
+        }
+    } 
+    
+    .social-links {
+        display: flex;
+        align-items: center;
+
+        a img {
+            width: 28px;
+            height: 28px;
+        }
+    }
+}
