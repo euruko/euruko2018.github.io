@@ -1,0 +1,30 @@
+@import "includes";
+
+.sponsor-list {
+    padding: 0 30px;
+    justify-content: center;
+    align-items: center;
+    
+    .sponsor-wrapper {
+        flex-basis: $page-width;
+    }
+
+    a {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        display: flex;
+        align-items: center;
+
+        img {
+            height: 40px;
+            width: auto;
+            margin-right: 30px;
+        }
+
+        &:last-child {
+            color: $grey;
+            text-decoration: none;
+            margin-left: auto;
+        }
+    }
+}
