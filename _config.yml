@@ -8,3 +8,5 @@ theme: jekyll-theme-cayman
 sass:
     sass_dir: assets/css/lib
     style: compressed
+plugins:
+  - jekyll-autoprefixer
