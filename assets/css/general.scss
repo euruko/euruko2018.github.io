@@ -1,9 +1,7 @@
 ---
 ---
 
-@import "config";
-@import "flexbox";
-@import "responsive";
+@import "main";
 
 html {
   width: 100%;
@@ -176,7 +174,7 @@ content {
   }
 
   p {
-    font-size: $fs-medium;
+    font-size: $fs-h3;
     margin: 0 0 48px 0;
   }
 }
@@ -186,6 +184,6 @@ footer {
   border-top: 1px solid $grey2;
 
   a {
-    font-size: $fs-small;
+    font-size: 14px;
   }
 }
