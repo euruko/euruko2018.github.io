@@ -20,10 +20,13 @@ You'll find site-related configurations in `_config.yml`.
 
 The main layout is in `_layouts/default.html`.
 
-Stylesheets are in `assets/css/style.scss`. We're currently using the github
-pages theme [Cayman](https://github.com/pages-themes/cayman). You can find
-variables and junk to override
-[here](https://github.com/pages-themes/cayman/blob/master/_sass/). Their docs
-are very handy, too!
+CSS is in `assets/css/` Only add to general.scss styles used on multiple pages.
+ For styles used on a single page please add a separate file.
+ When adding a new page take a look at `_layouts/post.html` to see what layout 
+ you need to use and what's the structure of the html code that will keep 
+ the current theme.
+ 
+Images are added in `assets/images/`.
+JS is added in `assets/scripts/`.
 
-The landing page is currently in `index.html`.
+The homepage is `index.html`.
