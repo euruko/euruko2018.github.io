@@ -2,4 +2,12 @@
 
 @import "1-tools/responsive";
 
+@import "2-generic/reset";
+
+@import "3-base/page";
+@import "3-base/button";
+@import "3-base/typography";
+
 @import "4-object/flexbox";
+
+@import "6-trumps/colors";
