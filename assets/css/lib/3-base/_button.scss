@@ -21,11 +21,3 @@ input[type=submit].large {
     font-weight: $fw-bold;
     border-radius: 8px;
 }
-
-@include mobile-only{
-    .button,
-    input[type=button],
-    input[type=submit] {
-        white-space: normal;
-    }
-}
