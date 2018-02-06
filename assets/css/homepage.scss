@@ -11,7 +11,56 @@
 @import "partials/footer";
 
 
+header {
+    background: #ffffff url("/assets/images/headerBG.svg") no-repeat center bottom;
+    background-size: auto 100%;
+    min-height: 70vh;
+
+    .layout-wrapper {
+        padding: 80px 20vw 20px 0px;
+    }
+
+    h1 {
+        text-transform: uppercase;
+    }
+
+    .button {
+        align-self: flex-start;
+        margin-top: 30px;
+    }
+}
+
 .description {
     text-align: center;
     padding: 0 10vw;
+}
+
+@include mobile-only {
+    header {
+        min-height: 80vh;
+        background-size: auto 60vh;
+        background-position: left 70% bottom; 
+
+        .layout-wrapper {
+            padding: 40px 0px 20px 0px;
+            align-items: center;
+        }
+
+        h1, h3 {
+            text-align: center;
+        }
+
+        .button {
+            align-self: center;
+        }
+    }
+}
+
+@media (max-width: 340px) {
+    header {
+        min-height: 110vh;
+        background-size: auto 40vh;
+        background-position: left 70% bottom; 
+    }
+    
 }

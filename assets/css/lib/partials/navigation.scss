@@ -3,6 +3,15 @@
 nav {
     padding-top: 30px;
     padding-bottom: 30px;
+    position: relative;
+
+    #menu-opener {
+        display: none;
+    }
+    
+    .responsive-wrapper {
+        flex-grow: 1;
+    }
 
     .menu {
         margin: 0 50px;
@@ -17,9 +26,52 @@ nav {
             margin-right: 50px;
             white-space: nowrap;
         }
+
+        a:last-child {
+            margin-right: 0;
+        }
     } 
     
     .social-buttons a:last-child {
         margin-right: 0;
+        margin-left: auto;
+    }
+}
+
+@media (max-width: 920px) {
+    nav {
+        transition: all 0.8s ease-out;
+
+        #menu-opener {
+            margin-left: auto;
+            align-self: center;
+            display: flex;
+            cursor: pointer;
+        }
+
+        .responsive-wrapper {
+            flex-direction: column;
+            overflow: hidden;
+            max-height: 0px;
+            width: 100%;
+            align-items: center;
+            transition: all 0.8s ease-out;
+        }
+
+        &.active {
+            box-shadow: $bs-regular;
+
+            .responsive-wrapper {
+                max-height: 500px;
+            }
+        }
+
+        .menu {
+            flex-direction: column;
+            
+            a {
+                margin: 15px 0 15px 0;
+            }
+        }
     }
 }

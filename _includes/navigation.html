@@ -1,15 +1,26 @@
 <nav>
     <view class="layout-wrapper h-flex-wrap">
         {% include logo.html %}
-        <view class="menu">
-            <a href="/coc">Code of Conduct</a>
-            <a href="/#announcements">Announcements</a>
-            <a href="/#newsletter">Newsletter</a>
-        </view>
-        <view class="social-buttons">
-            <a href="https://twitter.com/euruko">
-                <img src="/assets/images/services/twitter.svg"/>
-            </a>
+        <div id="menu-opener" onClick="openMenu()">
+            <img src="/assets/images/menu.svg" width="30" height="24"/>
+        </div>
+        <view class="responsive-wrapper">
+            <view class="menu">
+                    <a href="/coc">Code of Conduct</a>
+                    <a href="/#announcements">Announcements</a>
+                    <a href="/#newsletter">Newsletter</a>
+            </view>
+            <view class="social-buttons">
+                <a href="https://twitter.com/euruko">
+                    <img src="/assets/images/services/twitter.svg"/>
+                </a>
+            </view>
         </view>
     </view>
 </nav>
+
+<script type="text/javascript">
+    function openMenu() {
+        document.getElementsByTagName('nav')[0].classList.toggle('active');
+    }
+</script>

@@ -1,0 +1,28 @@
+@include mobile-only {
+
+    /* TYPOGRAPHY */
+
+    h1 {
+        font-size: $fs-h2;
+    }
+
+    h2 {
+        font-size: $fs-h3;
+    }
+
+    h3 {
+        font-size: $fs-h4;
+    }
+
+    /* BUTTON */
+
+    .button.large,
+    input[type=button].large,
+    input[type=submit].large {
+        padding: 12px 20px;
+        font-size: $fs-p;
+        font-weight: $fw-medium;
+        border-radius: 5px;
+    }
+
+}
