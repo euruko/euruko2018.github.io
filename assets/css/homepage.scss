@@ -3,8 +3,10 @@
 
 @import "main";
 
-@import "modules/navigation";
-@import "modules/sponsor-list";
+@import "modules/announcements";
+
+@import "partials/navigation";
+@import "partials/sponsor-list";
 
 section {
     padding: 100px 30px 0px 30px;

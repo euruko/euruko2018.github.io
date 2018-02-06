@@ -6,10 +6,7 @@ input[type=submit] {
     font-weight: $fw-medium;
     border-radius: 5px;
     white-space: nowrap;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    flex: 0 0 0%;
+    display: inline-block;
     color: white;
     resize: none;
     cursor: pointer;
@@ -23,4 +20,12 @@ input[type=submit].large {
     font-size: $fs-h3;
     font-weight: $fw-bold;
     border-radius: 8px;
+}
+
+@include mobile-only{
+    .button,
+    input[type=button],
+    input[type=submit] {
+        white-space: normal;
+    }
 }

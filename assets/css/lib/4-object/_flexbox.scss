@@ -43,6 +43,10 @@ div[shrink] {
   display: flex;
 }
 
+.align-self-start {
+  align-self: flex-start;
+}
+
 // .h-inline-flex {
 //   display: inline-flex;
 // }

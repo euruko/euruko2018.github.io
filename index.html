@@ -13,7 +13,7 @@ layout: default
 
   <section>
     <view class="content-wrapper">
-      <h3 class="description">
+      <h3 class="description fw-medium">
         Euruko is the annual European conference that brings you all the good news about Ruby and its friends. Every year it takes
         place in a different European city, the location being chosen by the participants. We are tremendously happy to be organising
         this next edition. Join us and Ruby's creator, Matz, in Vienna on August 24-25.
@@ -22,28 +22,21 @@ layout: default
   </section>
   
   <section>
-    <view class="content-wrapper">
-      <h2 class="section-header">Announcements</h2>
+    <view column class="content-wrapper">
+      <h2 class="section-header align-self-start">Announcements</h2>
+      {% for post in site.posts %}
+        <view class="announcements">
+          <view class="image" style='background-image: url("/assets/images/posts/{{ post.image }}")'></view>
+          <view class="text-wrapper">
+            <h3 class="fw-bold">
+                {{ post.title }}
+            </h3>
+            {{ post.excerpt }}
+            <a href="{{post.url}}" class="button bg-red align-self-start" >{{ post.title }}</a>
+          </view>
+        </view>
+      {% endfor %}
     </view>
   </section>
 
-  <section id="announcements">
-    <div class="header">
-      <div row>
-        <h2>Announcements</h2>
-        <div class="spacing"></div>
-      </div>
-      <div class="border"></div>
-    </div>
-
-    {% for post in site.posts %}
-    <div row class="content">
-      <img src="/assets/images/posts/{{ post.image }}" />
-      <div column>
-        <h3><a href="{{post.url}}">{{ post.title }}</a></h3>
-        {{ post.excerpt }}
-      </div>
-    </div>
-    {% endfor %}
-  </section>
 </content>
