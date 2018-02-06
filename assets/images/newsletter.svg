@@ -1,25 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="211px" height="194px" viewBox="0 0 211 194" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
-    <title>Bell</title>
+    <title>Group 4</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <path d="M69,171 C69,183.702549 79.2974508,194 92,194 C104.702549,194 115,183.702549 115,171" id="path-1"></path>
-        <path d="M69,12 C69,24.7025492 79.2974508,35 92,35 C104.702549,35 115,24.7025492 115,12" id="path-2"></path>
-    </defs>
+    <defs></defs>
     <g id="Homepage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-126.000000, -3407.000000)">
         <g id="Stya-tuned!" transform="translate(-11.000000, 3328.000000)">
-            <g id="Bell" transform="translate(137.000000, 79.000000)">
-                <g id="Oval-4">
-                    <use fill-opacity="0.5" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
-                    <path stroke="#FFFFFF" stroke-width="10" d="M74.7035333,176 C76.8702223,183.508564 83.7938143,189 92,189 C100.206186,189 107.129778,183.508564 109.296467,176 L74.7035333,176 Z"></path>
-                </g>
-                <g id="Oval-4" transform="translate(92.000000, 23.500000) rotate(-180.000000) translate(-92.000000, -23.500000) ">
-                    <use fill-opacity="0.5" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-2"></use>
-                    <path stroke="#FFFFFF" stroke-width="10" d="M74.7035333,17 C76.8702223,24.5085636 83.7938143,30 92,30 C100.206186,30 107.129778,24.5085636 109.296467,17 L74.7035333,17 Z"></path>
-                </g>
-                <path d="M23,148 L161.480679,148 L161.480679,105.24034 C161.480679,66.999956 130.480723,36 92.2403396,36 C53.999956,36 23,66.999956 23,105.24034 L23,148 Z" id="Rectangle-3" stroke="#FFFFFF" stroke-width="10"></path>
-                <path d="M37,111 L37,107.5 C37,74.6390574 63.6390574,48 96.5,48" id="Rectangle-3" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round"></path>
+            <g id="Group-4" transform="translate(137.000000, 79.000000)">
+                <path d="M69,171 C69,183.702549 79.2974508,194 92,194 C104.702549,194 115,183.702549 115,171" id="Oval-4" fill-opacity="0.5" fill="#FFFFFF"></path>
+                <path d="M69,12 C69,24.7025492 79.2974508,35 92,35 C104.702549,35 115,24.7025492 115,12" id="Oval-4" fill-opacity="0.5" fill="#FFFFFF" transform="translate(92.000000, 23.500000) rotate(-180.000000) translate(-92.000000, -23.500000) "></path>
+                <path d="M105,171 L115,171 C115,183.702549 104.702549,194 92,194 C79.2974508,194 69,183.702549 69,171 L79,171 C79,178.179702 84.8202983,184 92,184 C99.1797017,184 105,178.179702 105,171 Z M105,171 L115,171 C115,183.702549 104.702549,194 92,194 C79.2974508,194 69,183.702549 69,171 L79,171 C79,178.179702 84.8202983,184 92,184 C99.1797017,184 105,178.179702 105,171 Z" id="Oval-4" fill="#FFFFFF" fill-rule="nonzero"></path>
+                <path d="M105,12 L115,12 C115,24.7025492 104.702549,35 92,35 C79.2974508,35 69,24.7025492 69,12 L79,12 C79,19.1797017 84.8202983,25 92,25 C99.1797017,25 105,19.1797017 105,12 Z M105,12 L115,12 C115,24.7025492 104.702549,35 92,35 C79.2974508,35 69,24.7025492 69,12 L79,12 C79,19.1797017 84.8202983,25 92,25 C99.1797017,25 105,19.1797017 105,12 Z" id="Oval-4" fill="#FFFFFF" fill-rule="nonzero" transform="translate(92.000000, 23.500000) rotate(180.000000) translate(-92.000000, -23.500000) "></path>
+                <path d="M23,148 L161.479996,148 L161.479996,105.239998 C161.479996,66.999803 130.480193,36 92.2399979,36 C53.999803,36 23,66.999803 23,105.239998 L23,148 Z" id="Rectangle-3" stroke="#FFFFFF" stroke-width="10"></path>
+                <path d="M92.5,53 C63.5050506,53 40,76.5050506 40,105.5" id="Oval-2" stroke="#FFFFFF" stroke-width="9.54545455" stroke-linecap="round"></path>
                 <rect id="Rectangle-3" stroke="#FFFFFF" stroke-width="10" x="5" y="148" width="173.576112" height="19" rx="9.5"></rect>
                 <g id="Group-3" transform="translate(130.483021, 0.000000)">
                     <circle id="Oval-3" fill="#FF564D" cx="40" cy="40" r="40"></circle>

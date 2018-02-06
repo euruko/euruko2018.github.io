@@ -16,30 +16,7 @@
 
 {{ content }}
 
-<div id="newsletter">
-  <div row>
-    <img src="/assets/images/newsletter.svg" />
-    <div column id="mc_embed_signup">
-      <h2>Stay tuned!</h2>
-      <p>Sign up for our newsletter and stay up to date. We promise we won't spam you ;-)</p>
-      <form action="https://euruko2018.us17.list-manage.com/subscribe/post?u=1de963d6421c2a03e355e56cf&amp;id=9f14f3691e"
-            method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-        <div id="mc_embed_signup_scroll">
-          <div class="mc-field-group">
-            <input type="email" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Your Email Address">
-            <input type="submit" value="Sign me up!" name="subscribe">
-          </div>
-          <div id="mce-responses" class="clear">
-            <div class="response" id="mce-error-response" style="display:none"></div>
-            <div class="response" id="mce-success-response" style="display:none"></div>
-          </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-          <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_1de963d6421c2a03e355e56cf_9f14f3691e" tabindex="-1" value=""></div>
-
-        </div>
-      </form>
-    </div>
-  </div>
-</div>
+{% include newsletter.html %}
 
 {% include footer.html %}
 

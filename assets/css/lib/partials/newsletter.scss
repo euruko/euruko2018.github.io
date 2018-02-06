@@ -1,0 +1,76 @@
+@import "includes";
+
+.newsletter {
+    margin-top: 100px;
+    padding: 80px 30px;
+    justify-content: center;
+    align-items: center;
+    background: $blue-gradient;
+    
+    .newsletter-wrapper {
+        flex-basis: $page-width;
+        flex-wrap: wrap;
+    }
+
+    .image-wrapper {
+        justify-content: center;
+        flex: 1 0 300px;
+        padding: 30px 0;
+
+        img {
+            width: 211px;
+            height: 206px;  
+        }
+    }
+
+    #mc_embed_signup {
+        flex: 5 1 400px;
+
+        h2 {
+            margin-bottom: 10px;
+        }    
+        
+        h3 {
+            margin-bottom: 50px;
+        }    
+
+        input[type=email]{
+            background: none;
+            border-style: none;
+            border-bottom: 1px solid white;
+            font-size: $fs-h4;
+            font-weight: $fw-medium;
+            margin-right: 30px;
+            width: 300px;
+            color: white;
+        }
+
+        input {
+            margin-bottom: 20px;
+        }
+        
+    }
+
+}
+
+
+/*since it's the only place we have form elements it doesn't have to be in main*/
+
+* {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+  }
+  ::-webkit-input-placeholder { /* WebKit browsers */
+    color: white !important;
+    vertical-align: middle;
+  }
+  ::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: white !important;
+  }
+  :-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: white !important;
+  }
+  
+  :focus {
+    outline-color: transparent;
+    outline-style: none;
+  }
