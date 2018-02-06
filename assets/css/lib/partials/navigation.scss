@@ -1,14 +1,8 @@
 @import "includes";
 
-.navigation {
-    padding: 30px;
-    justify-content: center;
-    align-items: center;
-    
-    .navigation-wrapper {
-        flex-basis: $page-width;
-        flex-wrap: wrap;
-    }
+nav {
+    padding-top: 30px;
+    padding-bottom: 30px;
 
     .menu {
         margin: 0 50px;
@@ -25,13 +19,7 @@
         }
     } 
     
-    .social-links {
-        display: flex;
-        align-items: center;
-
-        a img {
-            width: 28px;
-            height: 28px;
-        }
+    .social-buttons a:last-child {
+        margin-right: 0;
     }
 }

@@ -1,0 +1,18 @@
+@import "includes";
+
+footer {
+    margin-bottom: 100px;
+
+    .subfooter {
+        margin-top: 50px;
+        align-items: center;
+
+        p {
+            margin-right: 20px;
+        }
+    }
+
+    .social-buttons a:last-child {
+        margin-right: 0;
+    }
+}

@@ -22,3 +22,12 @@ input[type=submit].large {
     font-weight: $fw-bold;
     border-radius: 8px;
 }
+
+.button.small,
+input[type=button].small,
+input[type=submit].small {
+    padding: 8px 14px;
+    font-size: 14px;
+    font-weight: $fw-regular;
+    border-radius: 3px;
+}

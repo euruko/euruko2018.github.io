@@ -1,7 +1,6 @@
 ---
 layout: default
 ---
-<link rel="stylesheet" href="{{ '/assets/css/homepage.css?v=' | append: site.github.build_revision | relative_url }}">
 
 <div class="homepage-header">
   <img src="/assets/images/eurukoWeb.svg" />
@@ -11,8 +10,8 @@ layout: default
   
   {% include sponsor_list.html %}
 
-  <section>
-    <view class="content-wrapper">
+  <section class="section-spacing">
+    <view class="layout-wrapper">
       <h3 class="description fw-medium">
         Euruko is the annual European conference that brings you all the good news about Ruby and its friends. Every year it takes
         place in a different European city, the location being chosen by the participants. We are tremendously happy to be organising
@@ -21,8 +20,8 @@ layout: default
     </view>
   </section>
   
-  <section>
-    <view column class="content-wrapper">
+  <section class="section-spacing">
+    <view column class="layout-wrapper">
       <h2 class="section-header align-self-start">Announcements</h2>
       {% for post in site.posts %}
         <view class="announcements">

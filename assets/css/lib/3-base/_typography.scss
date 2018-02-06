@@ -27,3 +27,8 @@ h5 {
 p, span, a {
     font-size: $fs-p;
 }
+
+a {
+    color: $blue;
+    text-decoration: underline;
+}

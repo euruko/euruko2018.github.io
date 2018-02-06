@@ -1,0 +1,16 @@
+section,
+nav,
+footer {
+    padding-right: 30px;
+    padding-left: 30px;
+    justify-content: center;
+    display: flex;
+    
+    .layout-wrapper {
+        flex-basis: $page-width;
+    }
+}
+
+.section-spacing {
+    margin-top: 100px;
+}

@@ -1,16 +1,9 @@
 @import "includes";
 
 .newsletter {
-    margin-top: 100px;
-    padding: 80px 30px;
-    justify-content: center;
-    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
     background: $blue-gradient;
-    
-    .newsletter-wrapper {
-        flex-basis: $page-width;
-        flex-wrap: wrap;
-    }
 
     .image-wrapper {
         justify-content: center;
