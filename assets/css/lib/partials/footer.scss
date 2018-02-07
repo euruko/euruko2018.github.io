@@ -1,8 +1,9 @@
 @import "includes";
 
 footer {
-    margin-bottom: 100px;
+    padding-bottom: 100px;
 
+    
     .subfooter {
         margin-top: 50px;
         align-items: center;
@@ -14,5 +15,17 @@ footer {
 
     .social-buttons a:last-child {
         margin-right: 0;
+    }
+}
+
+@include mobile-only {
+    footer {
+        .layout-wrapper > view {
+            flex-direction: column;
+        }
+       
+        .social-buttons {
+            margin-top: 30px;
+        }
     }
 }
