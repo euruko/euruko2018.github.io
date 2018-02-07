@@ -5,10 +5,13 @@
     padding-bottom: 80px;
     background: $blue-gradient;
 
+    .layout-wrapper > view {
+        padding: 20px 0;
+    }
+
     .image-wrapper {
         justify-content: center;
-        flex: 1 0 300px;
-        padding: 30px 0;
+        flex: 1 1 250px;
 
         img {
             width: 211px;
@@ -17,7 +20,7 @@
     }
 
     #mc_embed_signup {
-        flex: 5 1 400px;
+        flex: 7 1 400px;
 
         h2 {
             margin-bottom: 10px;
@@ -36,6 +39,7 @@
             margin-right: 30px;
             width: 300px;
             color: white;
+            border-radius: 0;
         }
 
         input {

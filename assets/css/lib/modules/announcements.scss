@@ -1,11 +1,15 @@
 @import "includes";
 
 .announcements {
-    margin-top: 50px;
+    margin-bottom: 50px;
     background-color: white;
     box-shadow: $bs-regular;
     border-radius: 8px;
     overflow: hidden;
+
+    &:last-child {
+        margin-bottom: 0px;
+    }
 
     .image {
         background-repeat: no-repeat;
@@ -37,7 +41,8 @@
         flex-direction: column;
 
         .image {
-            flex-grow: 1;
+            min-height: 100%;
+            flex: 0 0 200px;
             clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 90%);
         }
     }

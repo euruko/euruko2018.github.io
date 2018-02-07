@@ -12,12 +12,18 @@
 
 
 header {
-    background: #ffffff url("/assets/images/headerBG.svg") no-repeat center bottom;
-    background-size: auto 100%;
-    min-height: 70vh;
+    background: #ffffff url("/assets/images/header.svg") no-repeat right bottom;
+    background-size: 100% auto;
+    min-height: 600px;
+    padding: 0px;
 
     .layout-wrapper {
-        padding: 80px 20vw 20px 0px;
+        padding: 80px 20vw 0px 0px;
+        margin: 0 20px;
+    }
+
+    .mobile-header {
+        display: none;
     }
 
     h1 {
@@ -35,15 +41,24 @@ header {
     padding: 0 10vw;
 }
 
-@include mobile-only {
+
+@media (max-width: 980px) {
     header {
-        min-height: 80vh;
-        background-size: auto 60vh;
-        background-position: left 70% bottom; 
+        flex-direction: column;
+        background: linear-gradient(to top, #86e4ff, #ffffff);
+        min-height: 0px;
+        
+        .mobile-header {
+            display: inline-block;
+            width: 100%;
+            height: auto;
+        }
 
         .layout-wrapper {
-            padding: 40px 0px 20px 0px;
+            padding: 40px 20px 20px 20px;
+            flex-basis: auto;
             align-items: center;
+            margin: 0;
         }
 
         h1, h3 {
@@ -54,13 +69,4 @@ header {
             align-self: center;
         }
     }
-}
-
-@media (max-width: 340px) {
-    header {
-        min-height: 110vh;
-        background-size: auto 40vh;
-        background-position: left 70% bottom; 
-    }
-    
 }
