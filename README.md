@@ -31,6 +31,13 @@ JS is added in `assets/scripts/`.
 
 The homepage is `index.html`.
 
+## Add an announcement
+
+Create a new .md file in the `_posts` folder. The name should follow the convention `year-month-day-title.md`.
+In the file please add the metadata needed (see the other posts for reference) and your content. 
+By default, the first paragraph will be displayed on the home page, and only the subpage will display
+the entire content of the announcement.
+
 ## Contribute
 
 You're welcome to add content, tweak UI, etc. To do so, please create a new branch based on master 
