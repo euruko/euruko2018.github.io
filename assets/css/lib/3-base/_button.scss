@@ -1,6 +1,7 @@
 .button,
 input[type=button],
 input[type=submit] {
+    -webkit-appearance: none;
     padding: 12px 20px;
     font-size: $fs-p;
     font-weight: $fw-medium;
