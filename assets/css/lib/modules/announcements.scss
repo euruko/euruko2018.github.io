@@ -37,7 +37,8 @@
         flex-direction: column;
 
         .image {
-            flex-grow: 1;
+            min-height: 100%;
+            flex: 0 0 200px;
             clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 90%);
         }
     }
