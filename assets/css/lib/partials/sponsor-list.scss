@@ -3,27 +3,30 @@
 .sponsor-list {
 
     .sponsor-wrapper {
-        flex-grow: 10;
-    }
-    a {
-        margin-top: 30px;
-        margin-bottom: 30px;
-        display: flex;
-        align-items: center;
+        flex-grow: 100;
 
-        img {
+        a {
+            margin-top: 30px;
+            margin-bottom: 30px;
             height: 40px;
-            width: auto;
             margin-right: 30px;
+    
+            img {
+                height: 40px;
+            }
         }
     }
+    
 
     .be-sponsor {
         color: $grey;
+        margin-top: 10px;
+        margin-bottom: 10px;
         text-decoration: none;
         display: flex;
         flex: 1 1 auto;
         justify-content: center;
+        align-items: center;
         white-space: nowrap;
     }
 }
