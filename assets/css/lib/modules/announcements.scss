@@ -1,11 +1,15 @@
 @import "includes";
 
 .announcements {
-    margin-top: 50px;
+    margin-bottom: 50px;
     background-color: white;
     box-shadow: $bs-regular;
     border-radius: 8px;
     overflow: hidden;
+
+    &:last-child {
+        margin-bottom: 0px;
+    }
 
     .image {
         background-repeat: no-repeat;
