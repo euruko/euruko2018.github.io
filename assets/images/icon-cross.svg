@@ -1,1 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="13.1" height="13.125" viewBox="0 0 13.1 13.125"><defs><style>.cls-1{fill:#ff5a79;fill-rule:evenodd}</style></defs><path id="_" data-name="❌" class="cls-1" d="M16667 811.962l-1.8-1.876-4.7 4.69-4.7-4.69-1.9 1.876 4.7 4.69-4.7 4.69 1.9 1.876 4.7-4.69 4.7 4.69 1.8-1.876-4.7-4.69z" transform="translate(-16653.9 -810.094)"/></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="124px" height="124px" viewBox="0 0 124 124" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Icons/Close</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Homepage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-981.000000, -720.000000)">
+        <g id="Icons/Close" transform="translate(981.000000, 720.000000)" fill="#FF564D">
+            <g id="Close">
+                <path d="M62,43.509 L22.391,3.9 C17.206,-1.284 8.926,-1.286 3.82,3.82 C-1.322,8.961 -1.251,17.24 3.9,22.391 L43.509,62 L3.9,101.609 C-1.284,106.794 -1.286,115.074 3.82,120.18 C8.961,125.322 17.24,125.251 22.391,120.1 L62,80.491 L101.609,120.1 C106.794,125.284 115.074,125.286 120.18,120.18 C125.322,115.039 125.251,106.76 120.1,101.609 L80.491,62 L120.1,22.391 C125.284,17.206 125.286,8.926 120.18,3.82 C115.039,-1.322 106.76,-1.251 101.609,3.9 L62,43.509 Z" id="Shape" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

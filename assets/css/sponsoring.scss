@@ -32,7 +32,17 @@ table {
     color: $red;
     font-weight: normal;
     font-style: italic;
+    page-break-before: always;
   }
 
+  img {
+    width: 16px;
+    height: 16px;
+  }
 
+  tr:last-child {
+    td:first-child {
+      color: $red;
+    }
+  }
 }
