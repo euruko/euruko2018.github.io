@@ -3,9 +3,6 @@
 
 @import "0-settings/config";
 
-.sponsor-table {
-  overflow-x: scroll;
-}
 table {
   border-collapse: collapse;
 
@@ -13,7 +10,6 @@ table {
     font-weight: bold;
     padding: 15px 15px 25px 15px;
     border-bottom: 1px solid $red;
-    white-space: nowrap;
   }
 
   td:not(:first-child) {
@@ -29,10 +25,6 @@ table {
     border: 3px solid white;
     background-color: #fafafa;
     padding: 20px;
-  }
-
-  td {
-    white-space: nowrap;
   }
 
   td.title {
@@ -52,5 +44,15 @@ table {
     td:first-child {
       color: $red;
     }
+  }
+}
+
+@media (max-width: 768px) {
+  .sponsor-table {
+    overflow-x: scroll;
+  }
+
+  th, td {
+    white-space: nowrap;
   }
 }
