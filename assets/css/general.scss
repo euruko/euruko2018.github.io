@@ -76,9 +76,16 @@ header {
     size: A4 landscape;
 }
 
-@media print
-{
+@media print {
     .no-print, .no-print * {
         display: none !important;
+    }
+
+    section {
+        page-break-before: always;
+    }
+
+    footer {
+        page-break-after: avoid;
     }
 }
