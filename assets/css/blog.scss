@@ -1,0 +1,19 @@
+---
+---
+
+@import "0-settings/config";
+
+article {
+  p {
+    margin-bottom: 1em;
+  }
+  blockquote {
+    border-left: 4px solid $red;
+    padding: 0.8em 0.4em;
+    background-color: $grey3;
+
+    p {
+      margin-bottom: 0;
+    }
+  }
+}
