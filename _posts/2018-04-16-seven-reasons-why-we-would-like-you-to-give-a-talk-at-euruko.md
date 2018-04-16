@@ -2,7 +2,7 @@
 title: "7 reasons why we’d like you to give a talk at EuRuKo 2018"
 layout: post
 date: 2018-04-16 10:00:00 +0100
-image: vienna.jpg
+image: crowd.jpg
 ---
 
 Speaking at a conference for a large audience might sound a bit daunting at first, but at EuRuKo we like to welcome speakers from all backgrounds, experience and knowledge levels to give a talk. This could be about how you use Ruby, what you’ve learned while working with Ruby or how you see the Ruby community, or the developer community as a whole.
