@@ -7,7 +7,7 @@ image: vienna.jpg
 
 Speaking at a conference for a large audience might sound a bit daunting at first, but at EuRuKo we like to welcome speakers from all backgrounds, experience and knowledge levels to give a talk. This could be about how you use Ruby, what you’ve learned while working with Ruby or how you see the Ruby community, or the developer community as a whole.
 
-With this list of 7 reasons we hope to make speaking at EuRuKo a positively unforgettable experience for you. And don’t forget to apply, **the deadline is April 17th!**
+With this list of 7 reasons we hope to make speaking at EuRuKo a positively unforgettable experience for you. And don't forget to apply asap, the deadline is April 17th 14:00 CEST. **Yes, that's tomorrow after lunch!**
 
 > Please check our [guidelines for our CFP][1]. For first-time speakers, we offer hands-on help to create a good proposal.
 
