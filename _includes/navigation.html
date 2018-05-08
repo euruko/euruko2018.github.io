@@ -1,22 +1,18 @@
 <nav>
     <view class="layout-wrapper h-flex-wrap">
         {% include logo.html %}
-        <div class="no-print">
-            <div id="menu-opener" onClick="openMenu()">
-                <img src="/assets/images/menu.svg" width="30" height="24"/>
-            </div>
-            <view class="responsive-wrapper">
-                <view class="menu">
-                    <a href="/coc">Code of Conduct</a>
-                    <a href="/venue">Venue</a>
-                    <a href="/venue#accessibility">Accessibility</a>
-                    <a href="/#announcements">Announcements</a>
-                    <a href="/sponsoring">Sponsoring</a>
-                    <a href="/cfp">Call for Proposals</a>
-                </view>
-                {% include social_buttons.html %}
-            </view>
+
+        <div id="menu-opener" onClick="openMenu()">
+            <img src="/assets/images/menu.svg" width="30" height="24"/>
         </div>
+        <view class="responsive-wrapper">
+            <view class="menu">
+                <a href="/venue">Location</a>
+                <a href="/sponsoring">Sponsoring</a>
+                <a href="/coc">CoC</a>
+            </view>
+            {% include social_buttons.html %}
+        </view>
     </view>
 </nav>
 

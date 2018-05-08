@@ -42,6 +42,11 @@ header {
     padding: 0 10vw;
 }
 
+content {
+  display: block;
+  padding-top: 40px;
+}
+
 
 @media (max-width: 980px) {
     header {
@@ -69,19 +74,5 @@ header {
         .button {
             align-self: center;
         }
-    }
-}
-
-@page {
-    size: A4 landscape;
-}
-
-@media print {
-    .no-print, .no-print * {
-        display: none !important;
-    }
-
-    footer {
-        page-break-after: avoid;
     }
 }
