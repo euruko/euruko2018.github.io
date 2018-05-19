@@ -1,0 +1,50 @@
+---
+---
+
+@import "0-settings/config";
+
+.speakers-table {
+  width: 100%;
+  line-height: 30px;
+
+  div[row] {
+    div {
+      border: 3px solid white;
+      background-color: #fafafa;
+      padding: 20px;
+    }
+
+    div:last-child {
+      flex-grow: 1;
+    }
+
+    .name,
+    .talk-name {
+      display: block;
+    }
+
+    .name {
+      font-weight: bold;
+      color: $red;
+      margin-bottom: 20px;
+    }
+  }
+
+  img {
+    width: 100px;
+  }
+  .img-placeholder {
+    width: 100px;
+    border: none !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .sponsor-table {
+    overflow-x: scroll;
+  }
+
+  th, td {
+    white-space: nowrap;
+  }
+}
