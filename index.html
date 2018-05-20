@@ -5,19 +5,20 @@ layout: default
 <header>
   <view column class="layout-wrapper">
     <h1 class="fw-bold c-red">
-        Where Ruby Developers meet
+      Where Ruby Developers meet
     </h1>
     <h3 class="fw-medium">
-        24th - 25th of August 2018
+      Reserve your ticket for EuRuKo 2018<br />
+      24th - 25th of August, Vienna
     </h3>
-  <a href="https://ti.to/euruko2018/conference" class="button bg-red" >Get your ticket. On sale now!</a>
+    <a href="https://ti.to/euruko2018/conference" class="button bg-red" target="_blank">Get your ticket now</a>
   </view>
   <img src="/assets/images/mobileHeader.svg" class="mobile-header"/>
 </header>
 
 
 <content>
-  
+
   {% include sponsor_list.html %}
 
   <section class="section-spacing">
@@ -29,21 +30,21 @@ layout: default
       </h3>
     </view>
   </section>
-  
+
   <section id="announcements" class="section-spacing">
     <view column class="layout-wrapper">
       <h2 class="section-header align-self-start">Announcements</h2>
       {% for post in site.posts %}
-        <view class="announcements">
-          <view class="image" style='background-image: url("/assets/images/posts/{{ post.image }}")'></view>
-          <view class="text-wrapper">
-            <h3 class="fw-bold">
-                {{ post.title }}
-            </h3>
-            {{ post.excerpt }}
-            <a href="{{post.url}}" class="button bg-red align-self-start" >Read more...</a>
-          </view>
+      <view class="announcements">
+        <view class="image" style='background-image: url("/assets/images/posts/{{ post.image }}")'></view>
+        <view class="text-wrapper">
+          <h3 class="fw-bold">
+            {{ post.title }}
+          </h3>
+          {{ post.excerpt }}
+          <a href="{{post.url}}" class="button bg-red align-self-start" >Read more...</a>
         </view>
+      </view>
       {% endfor %}
     </view>
   </section>
