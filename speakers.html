@@ -13,110 +13,22 @@ layout: default
                 Speakers
             </h1>
 
-            <div column class="speakers-table">
-                <div row>
-                    <div><img src="/assets/images/speakers/matz.jpeg" /></div>
-                    <div>
-                        <span class="name">Yukihiro Matsumoto *</span>
-                        <span class="talk-name">Keynote</span>
+            <div class="speakers-table h-flex-wrap">
+                {% for speaker in site.data.speakers %}
+                <div class="tile">
+                    <div row>
+                        <img src="/assets/images/speakers/{{ speaker.photo }}" />
+                        <div column style="padding: 10px 20px;">
+                            <span class="name">{{ speaker.name }}</span>
+                            <span class="talk-name">{{ speaker.talk }}</span>
+                        </div>
                     </div>
-                </div>
 
-                <div row>
-                    <div><img src="/assets/images/speakers/joannah.png" /></div>
-                    <div>
-                        <span class="name">Joannah Nanjekye *</span>
-                        <span class="talk-name">Ruby in containers</span>
-                    </div>
+                    <p class="description">
+                        {{ speaker.description }}
+                    </p>
                 </div>
-
-                <div row>
-                    <div><img src="/assets/images/speakers/nadia.jpeg" /></div>
-                    <div>
-                        <span class="name">Nadia Odunayo *</span>
-                        <span class="talk-name">The case of the missing method — a Ruby mystery story</span>
-                    </div>
-                </div>
-
-                <div row>
-                    <div><img src="/assets/images/speakers/amr.jpg" /></div>
-                    <div>
-                        <span class="name">Amr Abdelwahab</span>
-                        <span class="talk-name">An empathy exercise: contextualising the question of privilege</span>
-                    </div>
-                </div>
-
-                <div row>
-                    <div><img src="/assets/images/speakers/louisa.jpg" /></div>
-                    <div>
-                        <span class="name">Louisa Barrett</span>
-                        <span class="talk-name">Ruby not red: color theory for the rest of us</span>
-                    </div>
-                </div>
-
-                <div row>
-                    <div><img src="/assets/images/speakers/coraline.jpg" /></div>
-                    <div>
-                        <span class="name">Coraline Ada Ehmke</span>
-                        <span class="talk-name">The broken promise of Open Source</span>
-                    </div>
-                </div>
-
-                <div row>
-                    <div><img src="/assets/images/speakers/ana-maria.jpg" /></div>
-                    <div>
-                        <span class="name">Ana María Martínez Gómez</span>
-                        <span class="talk-name">Let’s refactor some Ruby code</span>
-                    </div>
-                </div>
-
-                <div row>
-                    <div><img src="/assets/images/speakers/igor.png" /></div>
-                    <div>
-                        <span class="name">Igor Morozov</span>
-                        <span class="talk-name">Ducks and monads: wonders of Ruby types</span>
-                    </div>
-                </div>
-
-                <div row>
-                    <div><img src="/assets/images/speakers/kerstin.jpg" /></div>
-                    <div>
-                        <span class="name">Kerstin Puschke</span>
-                        <span class="talk-name">Scaling a monolith isn’t scaling microservices</span>
-                    </div>
-                </div>
-
-                <div row>
-                    <div><img src="/assets/images/speakers/chris.png" /></div>
-                    <div>
-                        <span class="name">Chris Salzberg</span>
-                        <span class="talk-name">Metaprogramming for generalists</span>
-                    </div>
-                </div>
-
-                <div row>
-                    <div><img src="/assets/images/speakers/pan.jpg" /></div>
-                    <div>
-                        <span class="name">Pan Thomakos</span>
-                        <span class="talk-name">Debugging adventures in Rack-land</span>
-                    </div>
-                </div>
-
-                <div row>
-                    <div><img src="/assets/images/speakers/brad.jpg" /></div>
-                    <div>
-                        <span class="name">Brad Urani</span>
-                        <span class="talk-name">Rails anti-patterns: how not to design your database</span>
-                    </div>
-                </div>
-
-                <div row>
-                    <div><img src="/assets/images/speakers/damir.jpg" /></div>
-                    <div>
-                        <span class="name">Damir Zekić</span>
-                        <span class="talk-name">Tool belt of a seasoned bug hunter</span>
-                    </div>
-                </div>
+                {% endfor %}
             </div>
 
         </view>

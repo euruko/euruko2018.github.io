@@ -6,32 +6,40 @@
 .speakers-table {
   width: 100%;
   line-height: 30px;
+  display: flex;
 
-  div[row] {
-    div {
-      border: 3px solid white;
-      background-color: #fafafa;
-      padding: 20px;
-    }
+  div.tile {
+    flex-flow: column;
+    border-radius: 10px;
+    box-shadow: 0 1px 4px 0 rgba(89, 89, 89, 0.2);
+    margin-bottom: 30px;
+    margin-right: 30px;
+    max-width: 370px;
 
-    div:last-child {
-      flex-grow: 1;
+
+
+    div[row] {
+      border-bottom: 1px solid $grey3;
     }
 
     .name,
     .talk-name {
       display: block;
+      font-weight: bold;
     }
 
     .name {
-      font-weight: bold;
       color: $red;
-      margin-bottom: 20px;
+    }
+    .description {
+      padding: 20px;
+      text-align: left;
     }
   }
 
   img {
-    width: 100px;
+    max-height: 120px;
+    border-top-left-radius: 10px;
   }
   .img-placeholder {
     width: 100px;

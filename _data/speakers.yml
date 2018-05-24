@@ -1,0 +1,64 @@
+- name: Yukihiro Matsumoto *
+  talk: Keynote
+  photo: matz.jpeg
+  description: "Yukihiro \"Matz\" Matsumoto is the chief designer of the Ruby programming language and its reference implementation, Matz's Ruby Interpreter (MRI). His demeanor has brought about a motto in the Ruby community: \"Matz is nice and so we are nice,\" commonly abbreviated as MINASWAN."
+
+- name: Joannah Nanjekye *
+  talk: Ruby in containers
+  photo: joannah.png
+  description: "Joannah Nanjekye is a software engineer and a friend of the Ruby community from Kampala Uganda. She is a proud open source contributor having been mentored through programs like Rails Girls Summer of Code, working at Outreachy, writing mostly Python, Ruby, and Golang. She is the author of \"Python 2 and 3 Compatibility\", a book published by Apress. She also organizes Rails Girls Kampala. Recently reading a lot about the latest developer tools and space."
+
+- name: Nadia Odunayo *
+  talk: The case of the missing method — a Ruby mystery story
+  photo: nadia.jpeg
+  description: "Nadia is a Co-Founder of CodeNewbie, the most supportive community of programmers and people learning to code. She has taught good engineering practices through pair programming at Pivotal Labs and Pivotal Cloud Foundry. She originally learned to code at Makers Academy and she maintains speakerline.io in her spare time."
+
+- name: Amr Abdelwahab
+  talk: "An empathy exercise: contextualising the question of privilege"
+  photo: amr.jpg
+  description: Amr is an African Egyptian native who crossed continents to work with his passion in digital environments. Amr's interests span technology, tech-communities, politics and politics in tech, all enriched through various software engineering roles in Egypt, Hungary and Germany.
+
+- name: Louisa Barrett
+  talk: "Ruby not red: color theory for the rest of us"
+  photo: louisa.jpg
+  description: "Louisa is the Director of the Front-End Engineering program at the Turing School of Software and Design in Denver, Colorado. She began her career as an illustrator and graphic designer, and a passion for understanding people led her to programming. She has a soft spot for UX, typography, and correcting students when they refer to an assignment operator as an \"equals sign\"."
+
+- name: Coraline Ada Ehmke
+  talk: The broken promise of Open Source
+  photo: coraline.jpg
+  description: "Coraline is a well-known speaker, writer, creator of the Contributor Covenant (the most popular open source code of conduct in the world), open source advocate and technologist with over 20 years of experience in developing apps for the web. She's been focusing on software development with Ruby and Rails since 2008. She works diligently to promote diversity and inclusivity in open source and the tech industry. She was recognized for her work with a Ruby Hero award in 2016."
+
+- name: Ana María Martínez Gómez
+  talk: Let’s refactor some Ruby code
+  photo: ana-maria.jpg
+  description: "Ana started working with Rails in 2015. Shortly after she started contributing to an open government Rails project. She fell in love with the open source development and has been contributing to various open source Ruby and RoR projects ever since. She is currently working at SUSE on the Open Build Service frontend, one of the first Rails applications still in use."
+
+- name: Igor Morozov
+  talk: "Ducks and monads: wonders of Ruby types"
+  photo: igor.png
+  description: Igor is a software engineer from Zelenograd, Moscow. He's familiar with Python, Ruby, JavaScript, and ReasonML. Presently he works a back-end developer at Qlean. He used to work in Planado, where he had to use cutting-edge dry-rb and rom-rb features. He loved it so much he can't stop talking about it. He's also a former DjangoGirls coach.
+
+- name: Kerstin Puschke
+  talk: Scaling a monolith isn't scaling microservices
+  photo: kerstin.jpg
+  description: Kerstin is a software developer at Shopify’s HQ in Ottawa. She’s exhilarated to transform Shopify’s massive Rails code base into a more modular monolith, building on her prior experience with distributed microservices architectures. Before moving to Canada, she helped organize the Hamburg Ruby user group and her local Rails Girls chapter.
+
+- name: Chris Salzberg
+  talk: Metaprogramming for generalists
+  photo: chris.png
+  description: Writer, programmer and wearer of many hats, transplanted from Montreal, Canada to Tokyo, Japan. He's the author of Mobility, a pluggable translation framework for Ruby, and a contributor to many other open-source projects. He's a frequent speaker and active member of the local Ruby community in Japan. He blogs at dejimata.com and works with a team of developers at Degica.
+
+- name: Pan Thomakos
+  talk: Debugging adventures in Rack-land
+  photo: pan.png
+  description: Pan leads productivity engineering and the Ruby/Rails/JavaScript platform at Strava. He spends most of his time developing automation to eliminate manual tasks, and improving, upgrading, and maintaining the web technology stack. He is originally from Greece and spends his free time running, cooking, and playing with his kids.
+
+- name: Brad Urani
+  talk: "Rails anti-patterns: how not to design your database"
+  photo: brad.jpg
+  description: Brad is a coder, karaoke singer and barbecue evangelist. He believes happiness is directly correlated with the size of your .vimrc and refuses to buy into YAGNI. When not hiking or hacking, he preaches the wonders of Ruby and SQL as Staff Engineer at Procore in Santa Barbara, CA
+
+- name: Damir Zekić
+  talk: Tool belt of a seasoned bug hunter
+  photo: damir.png
+  description: Damir is a software engineer who enjoys mentoring and teaching others to program. He has seen the best and the worst of Ruby and Rails throughout the last decade, but is always looking to expand own and other people's horizons. He's enjoying the life of a remote worker, using it to run all around the world (quite literally).
