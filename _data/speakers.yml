@@ -25,8 +25,8 @@
 
 - name: Coraline Ada Ehmke
   talk: The broken promise of Open Source
-  photo: coraline.jpg
-  description: "Coraline is a well-known speaker, writer, creator of the Contributor Covenant (the most popular open source code of conduct in the world), open source advocate and technologist with over 20 years of experience in developing apps for the web. She's been focusing on software development with Ruby and Rails since 2008. She works diligently to promote diversity and inclusivity in open source and the tech industry. She was recognized for her work with a Ruby Hero award in 2016."
+  photo: coraline.png
+  description: "Coraline is a well-known speaker, writer, open source advocate and technologist with over 20 years of experience in software development. She is the creator of the Contributor Covenant, the most popular open source code of conduct in the world with over 40k adoptions. In her free time, Coraline pursues her interests in artificial intelligence and writes and records music in her home studio. Find her on Twitter at @CoralineAda or on the web at where.coraline.codes."
 
 - name: Ana María Martínez Gómez
   talk: Let’s refactor some Ruby code
