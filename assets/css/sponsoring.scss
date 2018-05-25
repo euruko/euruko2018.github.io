@@ -47,6 +47,17 @@ table {
   }
 }
 
+.sold-out {
+  background-color: $red;
+  transform: rotate(35deg);
+  color: white;
+  font-size: 12px;
+  padding: 3px;
+  border-radius: 2px;
+  position: absolute;
+
+}
+
 @media (max-width: 768px) {
   .sponsor-table {
     overflow-x: scroll;
