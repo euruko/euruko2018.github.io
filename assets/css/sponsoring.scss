@@ -3,67 +3,8 @@
 
 @import "0-settings/config";
 
-table {
-  border-collapse: collapse;
-
-  th {
-    font-weight: bold;
-    padding: 15px 15px 25px 15px;
-    border-bottom: 1px solid $red;
-  }
-
-  td:not(:first-child) {
-    text-align: center;
-    word-break: keep-all ;
-  }
-
-  td:first-child {
-    font-weight: bold;
-  }
-
-  td:not(.title) {
-    border: 3px solid white;
-    background-color: #fafafa;
-    padding: 20px;
-  }
-
-  td.title {
-    padding: 40px 20px 10px 20px;
-    color: $red;
-    font-weight: normal;
-    font-style: italic;
-    page-break-before: always;
-  }
-
+.sponsor-line {
   img {
-    width: 16px;
-    height: 16px;
-  }
-
-  tr:last-child {
-    td:first-child {
-      color: $red;
-    }
-  }
-}
-
-.sold-out {
-  background-color: $red;
-  transform: rotate(35deg);
-  color: white;
-  font-size: 12px;
-  padding: 3px;
-  border-radius: 2px;
-  position: absolute;
-
-}
-
-@media (max-width: 768px) {
-  .sponsor-table {
-    overflow-x: scroll;
-  }
-
-  th, td {
-    white-space: nowrap;
+    height: 40px;
   }
 }
