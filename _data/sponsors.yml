@@ -1,10 +1,10 @@
 - name: MeisterLabs
   logo: meisterlabs.svg
-  url: https://www.meisterlabs.com/
+  url: https://www.meisterlabs.com
   description: We have made it our mission to inspire creativity in business, education and daily life by developing the most innovative and easy to use software tools. By embracing the concepts of Web 2.0 – simplicity, usability and collaboration – we provide new and revolutionary ways of working together in our increasingly global and connected environment.
   twitter: https://twitter.com/mindmeister
   facebook: https://www.facebook.com/mindmeister/
-  level: platinum
+  level: partner
 
 - name: GitHub
   logo: github.png

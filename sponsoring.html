@@ -13,27 +13,43 @@ layout: default
 
             <p>A big thank you to our sponsors for their support of the Ruby community and the EuRuKo conference!</p>
 
-            <h2>Platinum</h2>
-            <div column class="sponsor-line">
-                <div><img src="/assets/images/sponsors/meisterlabs.svg" /></div>
+            <h2 style="color: #0094e3;">Partner</h2>
+            {% for sponsor in site.data.sponsors %}
+            {% if sponsor.level == 'partner' %}
+            {% include sponsor_page_line.html sponsor=sponsor %}
+            {% endif %}
+            {% endfor %}
 
-                <h3>MeisterLabs</h3>
-                <a href="https://www.meisterlabs.com/" target="_blank">www.meisterlabs.com/</a>
-                <p>
-                    We have made it our mission to inspire creativity in business, education and daily life by
-                    developing the most innovative and easy to use software tools. By embracing the concepts of
-                    Web 2.0 – simplicity, usability and collaboration – we provide new and revolutionary ways
-                    of working together in our increasingly global and connected environment.
-                </p>
-            </div>
+            <h2 style="color: #ff564c;">Platinum</h2>
 
-            <h2>Gold</h2>
+            {% for sponsor in site.data.sponsors %}
+            {% if sponsor.level == 'platinum' %}
+            {% include sponsor_page_line.html sponsor=sponsor %}
+            {% endif %}
+            {% endfor %}
 
-            <h2>Silver</h2>
+            <h2 style="color: #edb98a">Gold</h2>
+            {% for sponsor in site.data.sponsors %}
+            {% if sponsor.level == 'gold' %}
+            {% include sponsor_page_line.html sponsor=sponsor %}
+            {% endif %}
+            {% endfor %}
 
-            <h2>Bronze</h2>
+            <h2 style="color: #9e9e9e">Silver</h2>
+            {% for sponsor in site.data.sponsors %}
+            {% if sponsor.level == 'silver' %}
+            {% include sponsor_page_line.html sponsor=sponsor %}
+            {% endif %}
+            {% endfor %}
 
-            <h3 style="margin-top: 30px;" class="c-red">
+            <h2 style="color: #b59473">Bronze</h2>
+            {% for sponsor in site.data.sponsors %}
+            {% if sponsor.level == 'bronze' %}
+            {% include sponsor_page_line.html sponsor=sponsor %}
+            {% endif %}
+            {% endfor %}
+
+            <h3 style="margin-top: 40px;" class="c-red">
                 Become a Sponsor
             </h3>
             <p style="margin-top: 30px;">
