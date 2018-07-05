@@ -1,10 +1,38 @@
-<div column class="sponsor-line">
-    <div><img src="/assets/images/sponsors/{{ sponsor.logo }}" /></div>
+<div class="sponsor-tile">
+    <div class="bg-{{sponsor.level}}" style="height: 10px;"></div>
+    <div class="content">
+        <a href="{{ sponsor.url }}" target="_blank">
+            <img class="logo" src="/assets/images/sponsors/{{ sponsor.logo }}" />
+        </a>
+        <p>{{ sponsor.description }}</p>
+        <div class="bouncer"></div>
+        <div class="links-wrapper">
+            <a href="{{ sponsor.twitter }}" target="_blank">
+                <img src="/assets/images/services/twitter.svg"/>
+            </a>
+            <a href="{{ sponsor.facebook }}" target="_blank">
+                <img src="/assets/images/services/facebook.svg"/>
+            </a>
 
-    <a href="{{ sponsor.url }}" target="_blank">{{ sponsor.url }}</a>
-    <p>{{ sponsor.description }}</p>
-    <p>
-        <a href="{{ sponsor.twitter }}">Twitter</a>
-        <a href="{{ sponsor.facebook }}">Facebook</a>
-    </p>
+            <a href="{{ sponsor.url }}" target="_blank">Visit page</a>
+        </div>
+    </div>
 </div>
+
+{% if false %}
+<a href="{{ sponsor.url }}" target="_blank">
+    <img class="logo" src="/assets/images/sponsors/{{ sponsor.logo }}" />
+</a>
+<p>{{ sponsor.description }}</p>
+<div class="bouncer"></div>
+<div class="links-wrapper">
+    <a href="{{ sponsor.twitter }}" target="_blank">
+        <img src="/assets/images/services/twitter.svg"/>
+    </a>
+    <a href="{{ sponsor.facebook }}" target="_blank">
+        <img src="/assets/images/services/facebook.svg"/>
+    </a>
+
+    <a href="{{ sponsor.url }}" target="_blank">Visit page</a>
+</div>
+{% endif %}
