@@ -1,0 +1,15 @@
+- name: Laura Bârlădeanu
+  photo: laura.jpg
+  subtitle: MeisterLabs
+  url: https://www.linkedin.com/in/laurabarladeanu/
+  bio: Full stack software engineer, tech lead at MeisterLabs, sports fanatic. Ruby on Rails. Vienna based, originally from Romania
+
+- name: Vincent Oord
+  photo: vincent.jpeg
+  url: https://veen.xyz
+  twitter: https://twitter.com/vindia
+  bio: Freelance Product Developer. Loves Rails and Elixir. Vienna based, but originally from The Netherlands
+
+- name: Daniel Schweighöfer
+  twitter: https://twitter.com/acid23
+  bio: Senior Backend Developer from Berlin. Trying to make the world a better place for everyone.
