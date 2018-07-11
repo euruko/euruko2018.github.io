@@ -2,13 +2,19 @@
   photo: ramon.jpg
   url: https://ramonhuidobro.com
   twitter: https://twitter.com/SenorHuidobro
-  bio: Ramón is a Chilean kids' coding instructor and freelance software dev. He likes to introduce people to coding more than he enjoys coding itself. If you want pointless Nintendo trivia, look no further than Ramón! He most likely wouldn't love his career as much as he does were it not for the conferences and their respective communities.
+  bio: Ramón is a kids' coding instructor from Chile and freelance software dev. He likes to introduce people to coding more than he enjoys coding itself. If you want pointless Nintendo trivia, look no further than Ramón! He most likely wouldn't love his career as much as he does were it not for the conferences and their respective communities.
+
+- name: Pilar Andrea Huidobro Peltier
+  subtitle: MeisterLabs
+  photo: pilar.jpg
+  url: https://twitter.com/tamacodechi
+  bio: Pilar is a strange, small human that is trying to make the world a better place and bring people happiness. She spends a lot of her time telling computers what to do. She is passionate about dogs and videogames and that’s probably why Pilar can’t stop adopting dogs or talking about videogames. Her biggest strength is being very open-minded and empathetic and that allows her to make things comfortable for everyone. A secret? She is an undercover dog.
 
 - name: Laura Bârlădeanu
   photo: laura.jpg
   subtitle: MeisterLabs
   url: https://www.linkedin.com/in/laurabarladeanu/
-  bio: Full stack software engineer, tech lead at Meister, sports fanatic, loves people and technology. Ruby on Rails. Vienna based, originally from Romania
+  bio: Full stack software engineer, tech lead at MeisterLabs, sports fanatic, cat person, loves people and technology. Rails Girls coach and organiser. Vienna based, originally from Romania.
 
 - name: Vincent Oord
   photo: vincent.jpeg
@@ -17,11 +23,12 @@
   bio: Freelance Product Developer. Loves Rails and Elixir. Vienna based, but originally from The Netherlands
 
 - name: Daniel Schweighöfer
-  photo: daniel.jpeg
+  photo: daniel.jpg
   twitter: https://twitter.com/acid23
   bio: Senior Backend Developer from Berlin. Trying to make the world a better place for everyone.
 
 - name: Kostas Rousis
+  subtitle: Samedi
   photo: kostas.jpg
   url: https://www.samedi.de
   twitter: https://twitter.com/rousisk
