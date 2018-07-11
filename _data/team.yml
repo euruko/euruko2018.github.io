@@ -1,8 +1,14 @@
+- name: Ramón Huidobro
+  photo: ramon.jpg
+  url: https://ramonhuidobro.com
+  twitter: https://twitter.com/SenorHuidobro
+  bio: Ramón is a Chilean kids' coding instructor and freelance software dev. He likes to introduce people to coding more than he enjoys coding itself. If you want pointless Nintendo trivia, look no further than Ramón! He most likely wouldn't love his career as much as he does were it not for the conferences and their respective communities.
+
 - name: Laura Bârlădeanu
   photo: laura.jpg
   subtitle: MeisterLabs
   url: https://www.linkedin.com/in/laurabarladeanu/
-  bio: Full stack software engineer, tech lead at MeisterLabs, sports fanatic. Ruby on Rails. Vienna based, originally from Romania
+  bio: Full stack software engineer, tech lead at Meister, sports fanatic, loves people and technology. Ruby on Rails. Vienna based, originally from Romania
 
 - name: Vincent Oord
   photo: vincent.jpeg
@@ -11,5 +17,12 @@
   bio: Freelance Product Developer. Loves Rails and Elixir. Vienna based, but originally from The Netherlands
 
 - name: Daniel Schweighöfer
+  photo: daniel.jpeg
   twitter: https://twitter.com/acid23
   bio: Senior Backend Developer from Berlin. Trying to make the world a better place for everyone.
+
+- name: Kostas Rousis
+  photo: kostas.jpg
+  url: https://www.samedi.de
+  twitter: https://twitter.com/rousisk
+  bio: Kostas leads the engineering team of samedi GmbH, where he currently serves as CIO. He is interested in Ruby, clean code and well-architected systems. He is also keen to see diverse and inclusive workplaces, to form happy and productive teams, and to achieve a healthy work-life balance.
