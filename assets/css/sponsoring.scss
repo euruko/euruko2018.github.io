@@ -3,14 +3,110 @@
 
 @import "0-settings/config";
 
-.sponsor-line {
-  margin: 20px 0;
-
-  img {
-    height: 50px;
-  }
-}
 
 h2 {
   margin: 40px 0 20px 0;
+}
+
+.sponsor-level-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  &:after {
+    content: "";
+    flex: 0 1 350px;
+    display: flex;
+  }
+}
+
+.sponsor-tile {
+  max-width: 350px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  box-shadow: $bs-regular;
+  border-radius: 8px;
+  margin: 20px 0;
+  overflow: hidden;
+
+  .content {
+    padding: 30px 30px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: center;
+  }
+
+  .logo {
+    height: 50px;
+    width: auto;
+  }
+
+  p {
+    color: $grey;
+    margin: 20px 0;
+  }
+
+  .bouncer {
+    flex-grow: 1;
+  }
+
+  .links-wrapper {
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+  }
+
+
+  .links-wrapper img {
+    margin-right: 20px;
+    width: 24px;
+    height: 24px;
+  }
+
+  .links-wrapper a {
+    display: flex;
+
+  }
+
+  .links-wrapper a:last-child {
+    margin-left: auto;
+  }
+}
+
+.bg-partner {
+  background-color: $blue;
+}
+.c-partner {
+  color: $blue;
+}
+
+.bg-platinum {
+  background-color: $grey;
+}
+.c-platinum {
+  color: $grey;
+}
+
+.bg-gold {
+  background-color: #ffbf00;
+}
+.c-gold {
+  color: #ffbf00;
+}
+
+.bg-silver {
+  background-color: $grey2;
+}
+.c-silver {
+  color: $grey2;
+}
+
+.bg-bronze {
+  background-color: #b59473;
+}
+.c-bronze {
+  color: #b59473;
 }
