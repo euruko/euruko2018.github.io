@@ -6,32 +6,68 @@ layout: default
 
 <link rel="stylesheet" href="{{ '/assets/css/sponsoring.css?v=' | append: site.github.build_revision | relative_url }}" media="print,screen">
 
-<content>
+<header>
+    <view column class="layout-wrapper">
+        <h1 class="fw-bold c-red">
+            Our Sponsors
+        </h1>
+        <h3 class="fw-medium">
+            A big thank you to our sponsors for their support of the Ruby community and the EuRuKo conference!
+        </h3>
+    </view>
+    <img src="/assets/images/mobileHeader.svg" class="mobile-header"/>
+</header>
+
+<content style="margin-top: 0px">
     <section>
         <view column class="layout-wrapper">
-            <h1>Our Sponsors</h1>
 
-            <p>A big thank you to our sponsors for their support of the Ruby community and the EuRuKo conference!</p>
-
-            <h2 class="c-partner">Partner</h2>
-
-            <div class="sponsor-level-list">
-                {% for sponsor in site.data.sponsors %}
-                {% if sponsor.level == 'partner' %}
-                {% include sponsor_page_line.html sponsor=sponsor %}
-                {% endif %}
-                {% endfor %}
+            {% for sponsor in site.data.sponsors %}
+            {% if sponsor.level == 'partner' %}
+            <div class="main-sponsor">
+                <a href="{{ sponsor.url }}" target="_blank">
+                    <img class="logo" src="/assets/images/sponsors/{{ sponsor.logo }}" />
+                    <p class="level">{{ sponsor.level }}</p>
+                </a>
+                <p>{{ sponsor.description }}</p>
+                <div class="links-wrapper">
+                    <a href="{{ sponsor.twitter }}" target="_blank">
+                        <img src="/assets/images/services/twitter.svg"/>
+                    </a>
+                    <a href="{{ sponsor.facebook }}" target="_blank">
+                        <img src="/assets/images/services/facebook.svg"/>
+                    </a>
+                    <a href="{{ sponsor.url }}" target="_blank">
+                        <img src="/assets/images/link.svg"/>
+                    </a>
+                </div>
             </div>
+            {% endif %}
+            {% endfor %}
 
-            <h2 class="c-platinum">Platinum</h2>
 
-            <div class="sponsor-level-list">
-                {% for sponsor in site.data.sponsors %}
-                {% if sponsor.level == 'platinum' %}
-                {% include sponsor_page_line.html sponsor=sponsor %}
-                {% endif %}
-                {% endfor %}
+            {% for sponsor in site.data.sponsors %}
+            {% if sponsor.level == 'platinum' %}
+            <div class="main-sponsor">
+                <a href="{{ sponsor.url }}" target="_blank">
+                    <img class="logo" src="/assets/images/sponsors/{{ sponsor.logo }}" />
+                    <p class="level c-{{ sponsor.level }}">{{ sponsor.level }}</p>
+                </a>
+                <p>{{ sponsor.description }}</p>
+                <div class="links-wrapper">
+                    <a href="{{ sponsor.twitter }}" target="_blank">
+                        <img src="/assets/images/services/twitter.svg"/>
+                    </a>
+                    <a href="{{ sponsor.facebook }}" target="_blank">
+                        <img src="/assets/images/services/facebook.svg"/>
+                    </a>
+                    <a href="{{ sponsor.url }}" target="_blank">
+                        <img src="/assets/images/link.svg"/>
+                    </a>
+                </div>
             </div>
+            {% endif %}
+            {% endfor %}
 
             <h2 class="c-gold">Gold</h2>
 

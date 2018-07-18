@@ -4,16 +4,27 @@
 
     .sponsor-wrapper {
         a {
-            margin-top: 30px;
-            margin-bottom: 30px;
-            height: 40px;
-
-            &:not(:first-child) {
-                margin-left: 20px;
-            }
+            margin: 30px 5px;
 
             img {
                 height: 38px;
+            }
+        }
+    }
+}
+
+@media (max-width: 980px) {
+    .sponsor-list {
+        .layout-wrapper > view {
+            justify-content: center;
+        }
+        .sponsor-wrapper {
+            a {
+                margin: 15px;
+
+                img {
+                    height: 20px;
+                }
             }
         }
     }

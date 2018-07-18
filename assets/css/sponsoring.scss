@@ -3,28 +3,73 @@
 
 @import "0-settings/config";
 
+header {
+  min-height: 450px;
+
+  .layout-wrapper {
+    padding: 80px 35vw 0px 0px;
+  }
+}
 
 h2 {
   margin: 40px 0 20px 0;
+  font-size: 42px;
+  text-align: center;
+}
+
+.main-sponsor {
+  padding: 0px 10vw;
+  margin: 40px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  a {
+    margin-bottom: 30px;
+    text-decoration: none;
+
+    .logo {
+      height: 60px;
+      width: auto;
+    }
+
+    .level {
+      font-weight: 700;
+      font-size: 18px;
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+  }
+
+  p {
+    text-align: center;
+  }
+
+  .links-wrapper {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+
+    a {
+      display: flex;
+    }
+
+    img {
+      width: 32px;
+      height: 32px;
+      margin: 0 10px;
+    }
+  }
 }
 
 .sponsor-level-list {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-
-  &:after {
-    content: "";
-    flex: 0 1 350px;
-    display: flex;
-  }
+  flex-direction: column;
 }
 
 .sponsor-tile {
-  max-width: 350px;
   width: 100%;
   display: flex;
-  flex-direction: column;
   background-color: white;
   box-shadow: $bs-regular;
   border-radius: 8px;
@@ -35,13 +80,17 @@ h2 {
     padding: 30px 30px;
     display: flex;
     flex-direction: column;
-    flex-grow: 1;
     align-items: center;
   }
 
+  a {
+    align-self: center;
+  }
+
   .logo {
-    height: 50px;
-    width: auto;
+    width: 180px;
+    height: auto;
+    margin: 0 20px;
   }
 
   p {
@@ -49,31 +98,23 @@ h2 {
     margin: 20px 0;
   }
 
-  .bouncer {
-    flex-grow: 1;
-  }
 
   .links-wrapper {
-    align-self: stretch;
+    align-self: flex-end;
     display: flex;
     align-items: center;
   }
 
-
   .links-wrapper img {
-    margin-right: 20px;
+    margin-left: 20px;
     width: 24px;
     height: 24px;
   }
 
   .links-wrapper a {
     display: flex;
-
   }
 
-  .links-wrapper a:last-child {
-    margin-left: auto;
-  }
 }
 
 .bg-partner {
