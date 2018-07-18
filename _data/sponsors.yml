@@ -62,8 +62,8 @@
 
 - name: WeTransfer
   logo: wetransfer.svg
-  url: https://wetransfer.com/
-  description: missing
+  url: https://wetransfer.com
+  description: WeTransfer is the simplest way to send your files around the world. Every month, more than 40 million active users transfer over one billion files. The service is all about making the creative process effortless, for everyone. Since 2009 we have been showcasing amazing creative work on WeTransfer with gratis advertising for musicians, photographers, and artists, giving away over five billion pages a year. We also offer financial grants, tech support and promotion to help creatives tell the stories that matter to them and bring relevant cultural projects to life. Above all, we hope these stories encourage other people to make something new themselves. Because inspiration means more when you do something with it.
   twitter: https://twitter.com/WeTransfer
-  facebook: https://www.facebook.com/wetransfer/
+  facebook: https://www.facebook.com/WeTransfer/
   level: bronze
