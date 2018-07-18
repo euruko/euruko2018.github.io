@@ -1,7 +1,7 @@
 - name: MeisterLabs
   logo: meisterlabs.svg
   url: https://www.meisterlabs.com
-  description: We have made it our mission to inspire creativity in business, education and daily life by developing the most innovative and easy to use software tools. By embracing the concepts of Web 2.0 – simplicity, usability and collaboration – we provide new and revolutionary ways of working together in our increasingly global and connected environment.
+  description: Meister develops smart and intuitive web apps that help teams turn ideas into reality, together. Our flagship products MindMeister and MeisterTask support a complete creative workflow - from collaborative brainstorming to agile task management. Meister is a Google Cloud Premier partner and a pioneer in developing Apple iOS applications.
   twitter: https://twitter.com/mindmeister
   facebook: https://www.facebook.com/mindmeister/
   level: partner
@@ -9,7 +9,7 @@
 - name: GitHub
   logo: github.png
   url: https://github.com
-  description: Founded in 2007, GitHub has brought millions of developers together to discover, share, and build better software. Learn more about our executives, careers, ...
+  description: missing
   twitter: https://twitter.com/github
   facebook: https://www.facebook.com/GitHub/
   level: platinum
