@@ -1,0 +1,42 @@
+---
+title: EuRuKo 2018 | Team
+permalink: /team/
+layout: default
+---
+
+<link rel="stylesheet" href="{{ '/assets/css/speakers.css?v=' | append: site.github.build_revision | relative_url }}" media="print,screen">
+
+<content>
+    <section>
+        <view column class="layout-wrapper">
+            <h1 class="c-red" style="margin-bottom: 60px;">
+                Team
+            </h1>
+
+            <div class="speakers-table h-flex-wrap">
+                {% for organiser in site.data.team %}
+                <div class="tile">
+                    <div row>
+                        <img src="/assets/images/team/{{ organiser.photo }}" />
+                        <div column style="padding: 10px 20px;">
+                            <span class="name">{{ organiser.name }}</span>
+                            <span class="talk-name">{{ organiser.subtitle }}</span>
+                        </div>
+                    </div>
+
+                    <p class="description">
+                        {{ organiser.bio }}
+                        {% if organiser.url %}
+                        <br /><a href="{{ organiser.url }}">{{ organiser.url }}</a>
+                        {% endif %}
+                        {% if organiser.twitter %}
+                        <br /><a href="{{ organiser.twitter }}">{{ organiser.twitter }}</a>
+                        {% endif %}
+                    </p>
+                </div>
+                {% endfor %}
+            </div>
+
+        </view>
+    </section>
+</content>
