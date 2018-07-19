@@ -1,0 +1,21 @@
+<div class="sponsor-tile">
+    <div class="bg-{{sponsor.level}}" style="min-width: 10px;"></div>
+    <a href="{{ sponsor.url }}" target="_blank">
+        <img class="logo" src="/assets/images/sponsors/{{ sponsor.logo }}" />
+        <span class="level c-{{sponsor.level}}">{{sponsor.level}}</span>
+    </a>
+    <div class="content">
+        <p>{{ sponsor.description }}</p>
+        <div class="links-wrapper">
+            <a href="{{ sponsor.twitter }}" target="_blank">
+                <img src="/assets/images/services/twitter.svg"/>
+            </a>
+            <a href="{{ sponsor.facebook }}" target="_blank">
+                <img src="/assets/images/services/facebook.svg"/>
+            </a>
+            <a href="{{ sponsor.url }}" target="_blank">
+                <img src="/assets/images/link.svg"/>
+            </a>
+        </div>
+    </div>
+</div>
