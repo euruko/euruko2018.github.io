@@ -4,14 +4,14 @@
   description: Meister develops smart and intuitive web apps that help teams of all sizes and industries turn ideas into reality. Our flagship products MindMeister and MeisterTask support a complete creative workflow - from collaborative brainstorming to agile task management. Founded in 2006, Meister has grown from a small German startup to an international tech company with offices in Munich, Vienna, and Seattle, and more than 11 million users globally. Our team is made up of around 30 enthusiastic people from all over the globe. What unites us is our love for technology, our passion for great design, and our goal to make collaboration as easy and fun as possible. When we’re not working, we also travel, play and party together.
   twitter: https://twitter.com/mindmeister
   facebook: https://www.facebook.com/mindmeister/
+  instagram: https://www.instagram.com/meisterlobsters/
   level: partner
 
 - name: GitHub
   logo: github.png
   url: https://github.com
-  description: missing
-  twitter: https://twitter.com/github
-  facebook: https://www.facebook.com/GitHub/
+  description: It takes a community to design, build, and ship great software. Building an application that integrates with GitHub? Register for our Developer Program! The possibilities are endless, and you enjoy the kudos.
+  twitter: https://twitter.com/GitHub
   level: platinum
 
 - name: xbAV Personal

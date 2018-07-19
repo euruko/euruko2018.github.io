@@ -23,7 +23,7 @@ layout: default
         <view column class="layout-wrapper">
 
             {% for sponsor in site.data.sponsors %}
-            {% if sponsor.level == 'partner' %}
+            {% if sponsor.level == 'partner' or sponsor.level == 'platinum' %}
             <div class="main-sponsor">
                 <a href="{{ sponsor.url }}" target="_blank">
                     <img class="logo" src="/assets/images/sponsors/{{ sponsor.logo }}" />
@@ -34,64 +34,29 @@ layout: default
                     <a href="{{ sponsor.twitter }}" target="_blank">
                         <img src="/assets/images/services/twitter.svg"/>
                     </a>
+                    {% if sponsor.facebook %}
                     <a href="{{ sponsor.facebook }}" target="_blank">
                         <img src="/assets/images/services/facebook.svg"/>
                     </a>
+                    {% endif %}
+                    {% if sponsor.instagram %}
+                    <a href="{{ sponsor.instagram }}" target="_blank">
+                        <img src="/assets/images/services/instagram.svg"/>
+                    </a>
+                    {% endif %}
                     <a href="{{ sponsor.url }}" target="_blank">
                         <img src="/assets/images/link.svg"/>
                     </a>
                 </div>
             </div>
+
+            {% else %}
+            <div class="sponsor-level-list">
+                {% include sponsor_page_line.html sponsor=sponsor %}
+            </div>
+
             {% endif %}
             {% endfor %}
-
-
-            {% for sponsor in site.data.sponsors %}
-            {% if sponsor.level == 'platinum' %}
-            <div class="main-sponsor">
-                <a href="{{ sponsor.url }}" target="_blank">
-                    <img class="logo" src="/assets/images/sponsors/{{ sponsor.logo }}" />
-                    <p class="level c-{{ sponsor.level }}">{{ sponsor.level }}</p>
-                </a>
-                <p>{{ sponsor.description }}</p>
-                <div class="links-wrapper">
-                    <a href="{{ sponsor.twitter }}" target="_blank">
-                        <img src="/assets/images/services/twitter.svg"/>
-                    </a>
-                    <a href="{{ sponsor.facebook }}" target="_blank">
-                        <img src="/assets/images/services/facebook.svg"/>
-                    </a>
-                    <a href="{{ sponsor.url }}" target="_blank">
-                        <img src="/assets/images/link.svg"/>
-                    </a>
-                </div>
-            </div>
-            {% endif %}
-            {% endfor %}
-
-            <div class="sponsor-level-list">
-                {% for sponsor in site.data.sponsors %}
-                {% if sponsor.level == 'gold' %}
-                {% include sponsor_page_line.html sponsor=sponsor %}
-                {% endif %}
-                {% endfor %}
-            </div>
-
-            <div class="sponsor-level-list">
-                {% for sponsor in site.data.sponsors %}
-                {% if sponsor.level == 'silver' %}
-                {% include sponsor_page_line.html sponsor=sponsor %}
-                {% endif %}
-                {% endfor %}
-            </div>
-
-            <div class="sponsor-level-list">
-                {% for sponsor in site.data.sponsors %}
-                {% if sponsor.level == 'bronze' %}
-                {% include sponsor_page_line.html sponsor=sponsor %}
-                {% endif %}
-                {% endfor %}
-            </div>
 
             <h3 style="margin-top: 40px;" class="c-red">
                 Become a Sponsor
