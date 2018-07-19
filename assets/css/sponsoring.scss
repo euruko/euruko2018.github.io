@@ -11,12 +11,6 @@ header {
   }
 }
 
-h2 {
-  margin: 40px 0 20px 0;
-  font-size: 42px;
-  text-align: center;
-}
-
 .main-sponsor {
   padding: 0px 10vw;
   margin: 40px 0;
@@ -36,7 +30,6 @@ h2 {
     .level {
       font-weight: 700;
       font-size: 18px;
-      text-decoration: none;
       text-transform: uppercase;
     }
   }
@@ -84,7 +77,18 @@ h2 {
   }
 
   a {
+    display: flex;
     align-self: center;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+  }
+
+  .level {
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 5px;
+    text-transform: uppercase;
   }
 
   .logo {
