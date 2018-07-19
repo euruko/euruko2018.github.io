@@ -1,42 +1,49 @@
 - name: Ramón Huidobro
+  role: Organiser
   photo: ramon.jpg
   url: https://ramonhuidobro.com
   twitter: https://twitter.com/SenorHuidobro
   bio: Ramón is a kids' coding instructor from Chile and freelance software dev. He likes to introduce people to coding more than he enjoys coding itself. If you want pointless Nintendo trivia, look no further than Ramón! He most likely wouldn't love his career as much as he does were it not for the conferences and their respective communities.
 
 - name: Pilar Andrea Huidobro Peltier
-  subtitle: MeisterLabs
+  role: Organiser
+  company: Meister
   photo: pilar.jpg
   url: https://twitter.com/tamacodechi
   bio: Pilar is a strange, small human that is trying to make the world a better place and bring people happiness. She spends a lot of her time telling computers what to do. She is passionate about dogs and videogames and that’s probably why Pilar can’t stop adopting dogs or talking about videogames. Her biggest strength is being very open-minded and empathetic and that allows her to make things comfortable for everyone. A secret? She is an undercover dog.
 
 - name: Laura Bârlădeanu
+  role: Organiser
   photo: laura.jpg
-  subtitle: MeisterLabs
+  company: Meister
   url: https://www.linkedin.com/in/laurabarladeanu/
-  bio: Full stack software engineer, tech lead at MeisterLabs, sports fanatic, cat person, loves people and technology. Rails Girls coach and organiser. Vienna based, originally from Romania.
+  bio: Full stack software engineer, tech lead at Meister, sports fanatic, cat person, loves people and technology. Rails Girls coach and organiser. Vienna based, originally from Romania.
 
 - name: Vincent Oord
+  role: Organiser
   photo: vincent.jpeg
   url: https://veen.xyz
   twitter: https://twitter.com/vindia
   bio: Freelance Product Developer. Loves Rails and Elixir. Vienna based, but originally from The Netherlands
 
 - name: Daniel Schweighöfer
+  role: Organiser
   photo: daniel.jpg
   twitter: https://twitter.com/acid23
   bio: Senior Backend Developer from Berlin. Trying to make the world a better place for everyone.
 
 - name: Kostas Rousis
-  subtitle: Samedi
+  role: Organiser
+  company: Samedi
   photo: kostas.jpg
   url: https://www.samedi.de
   twitter: https://twitter.com/rousisk
   bio: Kostas leads the engineering team of samedi GmbH, where he currently serves as CIO. He is interested in Ruby, clean code and well-architected systems. He is also keen to see diverse and inclusive workplaces, to form happy and productive teams, and to achieve a healthy work-life balance.
 
 - name: Gábor Jekkel
+  role: Design & Graphics
   photo: gabor.png
-  subtitle: MeisterLabs
+  company: Meister
   url: https://www.linkedin.com/in/gaborjekkel
   twitter: https://twitter.com/gaborjekkel
-  bio: Junior Frontend Developer, Design Technologist at MeisterLabs. Likes both watching and doing all kind of sports, reading books or playing guitar. Vienna based, originally from Hungary.
+  bio: Junior Frontend Developer, Design Technologist at Meister. Likes both watching and doing all kind of sports, reading books or playing guitar. Vienna based, originally from Hungary.
