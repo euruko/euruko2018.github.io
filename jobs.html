@@ -1,0 +1,84 @@
+---
+title: EuRuKo 2018 | Jobs
+permalink: /jobs/
+layout: default
+---
+
+<link rel="stylesheet" href="{{ '/assets/css/jobs.css?v=' | append: site.github.build_revision | relative_url }}" media="print,screen">
+
+
+<header>
+    <view column class="layout-wrapper">
+        <h1 class="fw-bold c-red">
+            We're hiring!
+        </h1>
+        <h3 class="fw-medium">
+            Reserve your ticket for EuRuKo 2018<br />
+            24th - 25th of August, Vienna
+        </h3>
+        <a href="https://ti.to/euruko2018/conference" class="button bg-red" target="_blank">Get your ticket now</a>
+    </view>
+</header>
+
+<content>
+    <section>
+        <view class="layout-wrapper">
+            {% for sponsor in site.data.sponsors %}
+            {% if sponsor.name == 'Meister'%}
+                <div class="job-header">
+                    <img src="/assets/images/sponsors/{{ sponsor.logo }}" />
+                    <p>
+                        {{ sponsor.description }}
+                    </p>
+                </div>
+            {% endif %}
+            {% endfor %}
+            <div class="job-listing">
+                {% for job in site.data.jobs %}
+                {% if job.company == 'Meister'%}
+                <div class="jobs-tile">
+                    <p class="job">{{ job.job}}</p>
+
+                    <p class="description">
+                        {{ job.description }}
+                    </p>
+                    <a href="{{ job.url }}" class="button bg-red c-white small">
+                        Find out more
+                    </a>
+                </div>
+                {% endif %}
+                {% endfor %}
+            </div>
+
+            {% for sponsor in site.data.sponsors %}
+            {% if sponsor.name == 'GitHub'%}
+            <div class="job-header">
+                <img src="/assets/images/sponsors/{{ sponsor.logo }}" />
+                <p>
+                    {{ sponsor.description }}
+                </p>
+            </div>
+            {% endif %}
+            {% endfor %}
+            <div class="job-listing">
+                {% for job in site.data.jobs %}
+                    {% if job.company == 'GitHub'%}
+                        <div class="jobs-tile">
+                            <p class="job">{{ job.job}}</p>
+
+                            <p class="description">
+                                {{ job.description }}
+                            </p>
+                            <a href="{{ job.url }}" class="button bg-red c-white small">
+                                Find out more
+                            </a>
+                        </div>
+                    {% endif %}
+                {% endfor %}
+            </div>
+        </view>
+    </section>
+
+</content>
+
+

@@ -1,0 +1,77 @@
+---
+---
+
+@import "0-settings/config";
+
+content {
+  margin-top: 0px;
+}
+
+.layout-wrapper {
+  flex-wrap: wrap;
+}
+
+.job-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+
+  img {
+    max-width: 250px;
+    width: 100%;
+    height: auto;
+  }
+
+  p {
+    color: $grey1;
+    margin: 40px 0;
+    text-align: center;
+  }
+}
+
+.job-listing {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-grow: 1;
+
+  &:after {
+    content: '';
+    max-width: 370px;
+    width: 100%;
+  }
+}
+
+.jobs-tile {
+  flex-flow: column;
+  align-items: center;
+  box-shadow: $bs-regular;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  max-width: 370px;
+  padding: 25px;
+
+  .company-logo {
+    max-width: 140px;
+    width: 100%;
+    height: auto;
+  }
+
+  .job {
+    color: $red;
+    font-size: $fs-h3;
+    font-weight: $fw-bold;
+    margin-bottom: 20px;
+  }
+
+  .description {
+    padding: 0px;
+    text-align: left;
+  }
+
+  .button {
+    margin-top: 20px;
+  }
+}
+
