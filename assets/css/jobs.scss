@@ -3,6 +3,30 @@
 
 @import "0-settings/config";
 
+header {
+  background: none;
+
+  .layout-wrapper {
+    align-items: center;
+    padding-right: 0px;
+  }
+
+  h1 {
+    margin: 20px 0;
+  }
+
+  h3 {
+    text-align: center;
+    padding: 0 10vw;
+  }
+
+  img {
+    max-width: 700px;
+    width: 100%;
+    height: auto;
+  }
+}
+
 content {
   margin-top: 0px;
 }
