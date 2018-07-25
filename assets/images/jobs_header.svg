@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="906" height="426" viewBox="0 0 906 426">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1019" height="410" viewBox="0 0 1019 410">
   <defs>
     <path id="a" d="M96.875,112.977305 L96.875,127.34375 L100,127.34375 C131.066017,127.34375 156.25,152.527733 156.25,183.59375 L156.25,190.625 L0,190.625 L0,183.59375 C-3.80448985e-15,152.527733 25.1839828,127.34375 56.25,127.34375 L59.375,127.34375 L59.375,112.977305 C45.9083082,106.579978 36.2283005,93.5054776 34.6133897,78.0322176 C30.0627425,77.3888958 26.5625,73.4782106 26.5625,68.75 L26.5625,57.8125 C26.5625,53.1671933 29.9410729,49.3109946 34.375,48.5671226 L34.375,43.75 C34.375,19.5875422 53.9625422,4.43857149e-15 78.125,0 C102.287458,-4.43857149e-15 121.875,19.5875422 121.875,43.75 L121.875,48.5671226 C126.308927,49.3109946 129.6875,53.1671933 129.6875,57.8125 L129.6875,68.75 C129.6875,73.4782106 126.187257,77.3888958 121.63661,78.0322176 C120.0217,93.5054776 110.341692,106.579978 96.875,112.977305 Z"/>
     <path id="c" d="M57.181564,6.29040899 C57.082314,7.05883936 57.03125,7.84097759 57.03125,8.63415899 C57.03125,19.4209705 66.4752436,28.165409 78.125,28.165409 C89.7747564,28.165409 99.21875,19.4209705 99.21875,8.63415899 C99.21875,7.84097759 99.167686,7.05883936 99.068436,6.29040899 L100,6.29040899 C131.066017,6.29040899 156.25,31.4743918 156.25,62.540409 L156.25,85.15625 L0,85.15625 L-7.10542736e-15,62.540409 C-1.09099172e-14,31.4743918 25.1839828,6.29040899 56.25,6.29040899 L57.181564,6.29040899 Z"/>
@@ -24,7 +24,7 @@
     <rect id="z" width="60" height="60" rx="9.6"/>
   </defs>
   <g fill="none" fill-rule="evenodd" transform="translate(-3 -2)">
-    <g transform="translate(195 166)">
+    <g transform="translate(252 150)">
       <g transform="translate(169.406 24.531)">
         <g transform="translate(25 28.125)">
           <mask id="b" fill="white">
@@ -219,7 +219,7 @@
       </g>
       <rect width="525.828" height="13.514" x=".996" y="248.482" fill="#797979" rx="6.757"/>
     </g>
-    <g transform="rotate(37 220.012 766.8)">
+    <g transform="rotate(37 314.691 1094.462)">
       <polygon fill="#FF8680" points="16.668 .632 33.333 23.79 0 23.79"/>
       <polygon fill="#FF6A62" points="50 95.368 33.333 23.79 0 23.79"/>
       <polygon fill="#FF9E99" points="66.668 23.79 50 .632 83.332 .632"/>
@@ -229,31 +229,31 @@
       <polygon fill="#FF8680" points="83.332 .632 100 23.79 66.668 23.79"/>
       <polygon fill="#FF6A62" points="50 95.368 100 23.79 66.668 23.79"/>
     </g>
-    <g transform="rotate(-22 195.316 -696.138)">
+    <g transform="rotate(-22 148.316 -454.344)">
       <rect width="57.6" height="57.6" x="1.2" y="1.2" fill="#50C2FF" stroke="#000000" stroke-opacity=".1" stroke-width="2.4" rx="9.6"/>
       <text fill="#FFFFFF" font-family="Raleway-Bold, Raleway" font-size="32" font-weight="bold">
         <tspan x="12" y="42">JS</tspan>
       </text>
     </g>
-    <g transform="rotate(32 -465.366 193.441)">
+    <g transform="rotate(32 -456.647 190.941)">
       <rect width="57.6" height="57.6" x="1.2" y="1.2" fill="#94E985" stroke="#000000" stroke-opacity=".1" stroke-width="2.4" rx="9.6"/>
       <text fill="#FFFFFF" font-family="Raleway-Bold, Raleway" font-size="32" font-weight="bold">
         <tspan x="12" y="42">AI</tspan>
       </text>
     </g>
-    <g transform="rotate(-22 610.528 -228.356)">
+    <g transform="rotate(-22 456.806 -714.715)">
       <rect width="112.6" height="57.6" x="1.2" y="1.2" fill="#FF6A62" stroke="#000000" stroke-opacity=".1" stroke-width="2.4" rx="9.6"/>
       <text fill="#FFFFFF" font-family="Raleway-Bold, Raleway" font-size="32" font-weight="bold">
         <tspan x="12" y="42">HTML</tspan>
       </text>
     </g>
-    <g transform="rotate(21 -186.52 1869.282)">
+    <g transform="rotate(21 -154.969 2250.303)">
       <rect width="83.6" height="57.6" x="1.2" y="1.2" fill="#797979" stroke="#000000" stroke-opacity=".1" stroke-width="2.4" rx="9.6"/>
       <text fill="#FFFFFF" font-family="Raleway-Bold, Raleway" font-size="32" font-weight="bold">
         <tspan x="12" y="42">CSS</tspan>
       </text>
     </g>
-    <g transform="rotate(-20 1246.01 -2163.196)">
+    <g transform="rotate(-20 1231.618 -2496.123)">
       <polyline stroke="#FF564D" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.077" points="6.462 56 17.538 39.692 33.846 46.462 70.769 11.692"/>
       <polygon fill="#FF564D" fill-opacity=".169" points="6.462 56 17.538 39.692 33.846 46.462 70.769 11.692 70.769 68.923 6.462 68.923"/>
       <path fill="#595959" fill-rule="nonzero" d="M6.15384615,-0.192307692 L-3.34615385,18.8076923 L15.6538462,18.8076923 L6.15384615,-0.192307692 Z M7.65384615,74.1538462 L7.65384615,17.3076923 L7.65384615,15.8076923 L4.65384615,15.8076923 L4.65384615,17.3076923 L4.65384615,74.1538462 L4.65384615,75.6538462 L7.65384615,75.6538462 L7.65384615,74.1538462 Z"/>
@@ -265,7 +265,7 @@
         </text>
       </g>
     </g>
-    <g transform="rotate(-33 214.276 -2.627)">
+    <g transform="rotate(-33 154.57 45.786)">
       <path stroke="#9E9E9E" stroke-width="6.667" d="M73.3333333,43.3333333 C73.3333333,24.9238417 58.4094917,10 40,10 C21.5905083,10 6.66666667,24.9238417 6.66666667,43.3333333" opacity=".5"/>
       <path stroke="#50C2FF" stroke-width="5" d="M10,10 L70,10"/>
       <rect width="13.333" height="13.333" y="3.333" fill="#50C2FF" rx="3.333"/>
@@ -274,7 +274,7 @@
       <circle cx="73.333" cy="43.333" r="6.667" fill="#797979"/>
       <circle cx="6.667" cy="43.333" r="6.667" fill="#797979"/>
     </g>
-    <g transform="rotate(17 105.816 2493.123)">
+    <g transform="rotate(17 360.132 2981.842)">
       <mask id="w" fill="white">
         <use xlink:href="#v"/>
       </mask>
@@ -391,6 +391,42 @@
       <rect width="4.2" height="4.2" x="48" y="51" fill="#F2DF15" mask="url(#w)" rx=".6"/>
       <rect width="4.2" height="4.2" x="40.8" y="51" fill="#F2DF15" mask="url(#w)" rx=".6"/>
       <rect width="57.6" height="57.6" x="1.2" y="1.2" stroke="#000000" stroke-opacity=".1" stroke-width="2.4" rx="9.6"/>
+    </g>
+    <g transform="rotate(-31 441.947 -119.145)">
+      <rect width="38.788" height="76.788" x=".606" y=".606" fill="#FFFFFF" stroke="#50C2FF" stroke-width="1.212" rx="6.061"/>
+      <rect width="32.727" height="58.5" x="3.636" y="8.531" fill="#50C2FF" opacity=".25" rx="2.828"/>
+      <ellipse cx="14.545" cy="4.875" fill="#50C2FF" rx="1.212" ry="1.219"/>
+      <ellipse cx="19.798" cy="72.313" fill="#50C2FF" fill-opacity=".25" stroke="#50C2FF" stroke-width=".5" rx="3.232" ry="3.25"/>
+      <rect width="5.657" height="2.438" x="17.374" y="3.656" fill="#50C2FF" rx="1.219"/>
+    </g>
+    <g transform="rotate(13 218.676 2309.463)">
+      <g fill="#94E985" transform="rotate(-18 119.706 -12.501)">
+        <rect width="15.323" height="47.293" x="1.613" y="1.613" fill-opacity=".5" stroke="#94E985" stroke-width="3.226" rx="7.661"/>
+        <rect width="6.452" height="17.642" x="15.323" y="23.255" rx="3.226"/>
+      </g>
+      <path fill="#FFFFFF" stroke="#94E985" stroke-width="3.226" d="M52.4193548,57.7358491 L40.3225806,49.7169811 L20.1612903,49.7169811 C9.02651714,49.7169811 0,40.7415575 0,29.6698113 C0,18.5980652 9.02651714,9.62264151 20.1612903,9.62264151 L40.3225806,9.62264151 L52.4193548,1.60377358"/>
+      <ellipse cx="54.042" cy="29.67" fill="#94E985" fill-opacity=".5" stroke="#94E985" stroke-width="3.226" rx="5.242" ry="29.67"/>
+      <g transform="translate(50.194 20.65)">
+        <polyline fill="#FFFFFF" stroke="#94E985" stroke-linejoin="round" stroke-width="3.226" points="0 1 13.172 3.786 13.172 15.856 0 18.642"/>
+        <ellipse cx="12.5" cy="9.821" fill="#FFFFFF" stroke="#94E985" stroke-width="3.226" rx="2.823" ry="6.964"/>
+        <g fill="#94E985" transform="translate(17.806 .35)">
+          <g transform="rotate(90 12.368 20.564)">
+            <rect width="2.419" height="14.434" y="9.623" rx="1.21"/>
+            <rect width="2.419" height="4.811" y="3.608" rx="1.21"/>
+            <rect width="2.419" height="2.406" rx="1.203"/>
+          </g>
+          <g transform="rotate(100 5.587 18.647)">
+            <rect width="2.419" height="14.434" y="9.623" rx="1.21"/>
+            <rect width="2.419" height="4.811" y="3.608" rx="1.21"/>
+            <rect width="2.419" height="2.406" rx="1.203"/>
+          </g>
+          <g transform="rotate(80 12.144 14.688)">
+            <rect width="2.419" height="14.434" y="9.623" rx="1.21"/>
+            <rect width="2.419" height="4.811" y="3.608" rx="1.21"/>
+            <rect width="2.419" height="2.406" rx="1.203"/>
+          </g>
+        </g>
+      </g>
     </g>
   </g>
 </svg>
