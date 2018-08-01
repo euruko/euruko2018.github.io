@@ -7,6 +7,7 @@
   facebook: https://www.facebook.com/mindmeister/
   instagram: https://www.instagram.com/meisterlobsters/
   level: partner
+  has_jobs: true
 
 - name: GitHub
   key: github
@@ -15,6 +16,7 @@
   description: It takes a community to design, build, and ship great software. Building an application that integrates with GitHub? Register for our Developer Program! The possibilities are endless, and you enjoy the kudos.
   twitter: https://twitter.com/GitHub
   level: platinum
+  has_jobs: true
 
 - name: xbAV Personal
   key: xbav
@@ -24,6 +26,7 @@
   twitter: https://twitter.com/xbav_ag
   facebook: https://de-de.facebook.com/xbav.de/
   level: gold
+  has_jobs: true
 
 - name: Cookpad
   key: cookpad

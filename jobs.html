@@ -25,10 +25,10 @@ layout: default
             <div class="job-header">
                 <a href="/jobs/{{ sponsor.key }}">
                     <img src="/assets/images/sponsors/{{ sponsor.logo }}" />
-                    <p>
-                        {{ sponsor.description }}
-                    </p>
                 </a>
+                <p>
+                    {{ sponsor.description }}
+                </p>
             </div>
             <div class="job-listing">
                 {% for job in site.data.jobs %}
