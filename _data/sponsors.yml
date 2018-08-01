@@ -53,7 +53,7 @@
   level: silver
 
 - name: JetBrains
-  logo: jetbrains.png
+  logo: jetbrains.svg
   url: https://www.jetbrains.com/ruby
   description: JetBrains creates intelligent, productivity-enhancing tools for software developers to simplify their challenging tasks and automate the routine ones. RubyMine is a powerful IDE designed for Ruby and Ruby on Rails developers. RubyMine provides outstanding Code Insight features including code autocompletion, navigation, language-specific inspections with quick-fixes, and in-editor quick documentation. The IDE also provides a built-in test runner, debugger, VCS support, and other essential tools supporting cutting-edge technologies and frameworks.
   twitter: https://twitter.com/rubymine
