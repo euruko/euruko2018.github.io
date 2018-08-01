@@ -6,7 +6,6 @@ layout: default
 
 <link rel="stylesheet" href="{{ '/assets/css/jobs.css?v=' | append: site.github.build_revision | relative_url }}" media="print,screen">
 
-
 <header>
     <view column class="layout-wrapper">
         <img src="/assets/images/jobs_header.svg" />
@@ -23,18 +22,17 @@ layout: default
     <section>
         <view class="layout-wrapper">
             {% for sponsor in site.data.sponsors %}
-            {% if sponsor.name == 'Meister'%}
-                <div class="job-header">
+            <div class="job-header">
+                <a href="/jobs/{{ sponsor.key }}">
                     <img src="/assets/images/sponsors/{{ sponsor.logo }}" />
                     <p>
                         {{ sponsor.description }}
                     </p>
-                </div>
-            {% endif %}
-            {% endfor %}
+                </a>
+            </div>
             <div class="job-listing">
                 {% for job in site.data.jobs %}
-                {% if job.company == 'Meister'%}
+                {% if job.company == sponsor.name %}
                 <div class="jobs-tile">
                     <p class="job">{{ job.job}}</p>
 
@@ -48,33 +46,7 @@ layout: default
                 {% endif %}
                 {% endfor %}
             </div>
-
-            {% for sponsor in site.data.sponsors %}
-            {% if sponsor.name == 'GitHub'%}
-            <div class="job-header">
-                <img src="/assets/images/sponsors/{{ sponsor.logo }}" />
-                <p>
-                    {{ sponsor.description }}
-                </p>
-            </div>
-            {% endif %}
             {% endfor %}
-            <div class="job-listing">
-                {% for job in site.data.jobs %}
-                    {% if job.company == 'GitHub'%}
-                        <div class="jobs-tile">
-                            <p class="job">{{ job.job}}</p>
-
-                            <p class="description">
-                                {{ job.description }}
-                            </p>
-                            <a href="{{ job.url }}" class="button bg-red c-white small">
-                                Find out more
-                            </a>
-                        </div>
-                    {% endif %}
-                {% endfor %}
-            </div>
         </view>
     </section>
 

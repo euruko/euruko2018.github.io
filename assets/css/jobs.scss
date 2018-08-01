@@ -99,3 +99,18 @@ content {
   }
 }
 
+.links-wrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+
+  a {
+    display: flex;
+  }
+
+  img {
+    width: 32px;
+    height: 32px;
+    margin: 0 10px;
+  }
+}
