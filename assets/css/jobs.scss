@@ -39,7 +39,10 @@ content {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 50px;
+
+  &:not(:first-child) {
+    margin-top: 50px;
+  }
 
   img {
     max-width: 250px;
@@ -49,7 +52,7 @@ content {
 
   p {
     color: $grey1;
-    margin: 40px 0;
+    margin: 40px 0 60px 0;
     text-align: center;
   }
 }
@@ -68,13 +71,14 @@ content {
 }
 
 .jobs-tile {
+  display: flex;
   flex-flow: column;
-  align-items: center;
   box-shadow: $bs-regular;
   border-radius: 8px;
   margin-bottom: 30px;
   max-width: 370px;
   padding: 25px;
+  align-items: flex-start;
 
   .company-logo {
     max-width: 140px;
@@ -92,10 +96,11 @@ content {
   .description {
     padding: 0px;
     text-align: left;
+    margin-bottom: 20px;
   }
 
   .button {
-    margin-top: 20px;
+    margin-top: auto;
   }
 }
 
