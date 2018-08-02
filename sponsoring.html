@@ -11,11 +11,11 @@ layout: default
         <h1 class="fw-bold c-red">
             Our Sponsors
         </h1>
-        <h3 class="fw-medium">
+        <h3 class="fw-bold">
             A big thank you to our sponsors for their support of the Ruby community and the EuRuKo conference!
         </h3>
+        <img src="/assets/images/homepage-header.svg"/>
     </view>
-    <img src="/assets/images/mobileHeader.svg" class="mobile-header"/>
 </header>
 
 <content style="margin-top: 0px">
@@ -27,7 +27,7 @@ layout: default
             <div class="main-sponsor">
                 <a href="{{ sponsor.url }}" target="_blank">
                     <img class="logo" src="/assets/images/sponsors/{{ sponsor.logo }}" />
-                    <p class="level">{{ sponsor.level }}</p>
+                    <p class="level c-{{ sponsor.level }}">{{ sponsor.level }}</p>
                 </a>
                 <p>{{ sponsor.description }}</p>
                 <div class="links-wrapper">
