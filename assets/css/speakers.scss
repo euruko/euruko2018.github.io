@@ -10,8 +10,8 @@
 
   div.tile {
     flex-flow: column;
-    border-radius: 10px;
-    box-shadow: 0 1px 4px 0 rgba(89, 89, 89, 0.2);
+    box-shadow: $bs-regular;
+    border-radius: 8px;
     margin-bottom: 30px;
     margin-right: 30px;
     max-width: 370px;

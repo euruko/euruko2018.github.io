@@ -1,0 +1,60 @@
+---
+title: EuRuKo 2018 | Jobs
+permalink: /jobs/
+layout: default
+---
+
+<link rel="stylesheet" href="{{ '/assets/css/jobs.css?v=' | append: site.github.build_revision | relative_url }}" media="print,screen">
+
+<header>
+    <view column class="layout-wrapper">
+        <img src="/assets/images/jobs_header.svg" />
+        <h1 class="fw-bold c-red">
+            We're hiring!
+        </h1>
+        <h3 class="fw-medium">
+            Are you looking for a job? Fancy moving to a new city? Or do you just care to browse career opportunities? See
+            below some of the positions that our sponsor have to offer you. P.S. Visit their booth for more information.
+        </h3>
+    </view>
+</header>
+
+<content>
+    <section>
+        <view class="layout-wrapper">
+            {% for sponsor in site.data.sponsors %}
+            {% if sponsor.has_jobs %}
+            <div class="job-header">
+                <a href="/jobs/{{ sponsor.key }}">
+                    <img src="/assets/images/sponsors/{{ sponsor.logo }}" />
+                </a>
+                <p>
+                    {{ sponsor.description }}
+                </p>
+            </div>
+            <div class="job-listing">
+                {% for job in site.data.jobs %}
+                {% if job.company == sponsor.name %}
+                <div class="jobs-tile">
+                    <p class="job">{{ job.job}}</p>
+
+                    <p class="description">
+                        {{ job.description }}
+                    </p>
+                    {% if job.url %}
+                    <a href="{{ job.url }}" class="button bg-red c-white small">
+                        Find out more
+                    </a>
+                    {% endif %}
+                </div>
+                {% endif %}
+                {% endfor %}
+            </div>
+            {% endif %}
+            {% endfor %}
+        </view>
+    </section>
+
+</content>
+
+

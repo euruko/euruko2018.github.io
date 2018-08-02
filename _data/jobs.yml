@@ -1,0 +1,88 @@
+- company: Meister
+  job: Back-End Developer
+  description: We believe in Ruby on Rails - do you? In our backend position, expect challenging projects as you help to develop new features, make technological updates and design and implement integrations with 3rd party tools. You will work closely with both our front-end and other back-end developers.
+  url: https://www.meisterlabs.com/jobs/backend-developer/
+
+- company: Meister
+  url: https://www.meisterlabs.com/jobs/frontend-developer/
+  job: Front-End Developer
+  description: Have you got experience with JavaScript, HTML and CSS and want to work in a cutting-edge tech stack (React, Redux, Webpack,...) to develop modern, intuitive web apps? Or even better, you worked with React/ Redux before? Join MeisterLabs and help us make our apps even greater. We're looking for Junior and Senior developers to join us :-)
+
+- company: Meister
+  url: https://www.meisterlabs.com/jobs/uiux-designer/
+  job: UI/UX Designer
+  description: You're a talented web designer with a keen eye for simple, clean user interfaces and a passion for optimizing the user experience. Together with our main designer you'd work on the UI of our award-winning web apps, as well as with our marketing and growth teams on cool ads and gorgeous collaterals.
+
+- company: Meister
+  url: https://www.meisterlabs.com/jobs/tester-qa-engineer/
+  job: Tester / QA Engineer
+  description: You will ensure high levels of software quality by creating automated tests for our web-based and mobile products as well as planning and executing tests manually.
+
+- company: Meister
+  url: https://www.meisterlabs.com/jobs/ios-developer/
+  job: iOS Developer
+  description: As an iOS Developer, you’d be the driving force behind the mobile version of our amazing software, working in collaboration with our Product Manager and developers. If making our apps excel sounds like an exciting task, we’d love to hear from you!
+
+- company: GitHub
+  url: https://boards.greenhouse.io/github/jobs/1231963
+  job: Ecosystem Senior API Engineer
+  description: The engineers on GitHub's Ecosystem API team are responsible for the interfaces everyone uses to integrate with GitHub. These integrations are key investments that GitHub is making, and you will be in the driver's seat to decide on what, where and how we invest.
+
+- company: GitHub
+  url: https://boards.greenhouse.io/github/jobs/1187493
+  job: Ecosystem Integrations Engineer
+  description: The identity and access management (IAM) team within the group is responsible for access control systems across all of our products. We keep our customers' data private, help our users administer large organizations, and provide services and abstractions for developers to build upon.
+
+- company: GitHub
+  url: https://boards.greenhouse.io/github/jobs/1231970
+  job: Ecosystem Events Engineer
+  description: The Ecosystem team is responsible for developing and expanding the availability of real-time data, as well as building on top of our REST and GraphQL APIs to receive and deliver data quickly and efficiently. You'll take ownership of existing platform primitives, as well as work cross-functionally to build completely new systems.
+
+- company: GitHub
+  url: https://boards.greenhouse.io/github/jobs/1152619
+  job: Ecosystem Engineer, Marketplace
+  description: You’ll work with our team of Ecosystem engineers, designers, and product managers to craft a cohesive experience for both our customers' integrators. The Ecosystem organization works together to ensure every part of our Platform is low friction and provides a high amount of value. Become part of the future of software development by joining our Marketplace team.
+
+- company: xbAV Personal
+  url: https://www.xbav.de/karriere/senior-full-stack-software-engineer-mw
+  job: Senior Full Stack Software Engineer (Berlin)
+  description: "Your job would involve: Development of new products, Further development of our occupational pension portal, Technical conception and implementation of our mobile web client, Connection of further data sources to our infrastructure. Our desired profile: In-depth experience with at least one of the following frameworks: Angular, Ruby on Rails or Spring, Desire to learn about new technical and specialist topics. Software Engineer is more than just a job title – it’s a vocation."
+
+- company: xbAV Personal
+  url: https://www.xbav.de/node/222
+  job: Midlevel Full Stack Software Engineer (Berlin)
+  description: "Your job would involve: Development of new products, Further development of our occupational pension portal, Technical conception and implementation of our mobile web client, Connection of further data sources to our infrastructure. Our desired profile: In-depth experience with at least one of the following frameworks: Angular, Ruby on Rails or Spring, Desire to learn about new technical and specialist topics. Software Engineer is more than just a job title – it’s a vocation."
+
+- company: xbAV Personal
+  url: https://www.xbav.de/karriere/ruby-rails-entwickler-mw
+  job: Ruby on Rails Developer (Munich)
+  description: "Your job would involve: Development and improvement of Rails Applications and REST APIs, Writing of effective, performant, self-descriptive and thoroughly tested code, Working in agile, cross-functional teams."
+
+- company: Cookpad
+  url: https://cookpad.workable.com/j/8829ECE51E
+  job: Senior Ruby Web Developer
+  description: You will be expert in Ruby on Rails, love writing tests, and have thorough knowledge of HTML, JavaScript, CSS, and SQL. With tens of millions of users per month, performance is always in mind and you will be adept at refactoring and debugging large applications.
+
+- company: Cookpad
+  url: https://cookpad.workable.com/j/404A8AD946
+  job: Search Engineer
+  description: The mission of the Cookpad Search team is to help every user find their ideal recipe to cook. As a search engineer you are responsible for everything from infrastructure, ranking, user experience, and data analysis.
+
+- company: Cookpad
+  url: https://cookpad.workable.com/j/6B53AF891D
+  job: Senior Site Reliability Engineer
+  description: Cookpad’s SRE’s are hybrid system and software engineers who take ownership of reliability, automation, and scalability. The focus is on systems and tools that enable developers to operate and scale the world’s largest recipe sharing community.
+
+- company: Degica
+  url: https://degica.com/en/jobs/2018-06-20-ruby-engineer-html
+  job: Ruby Engineer
+  description: Degica is looking for passionate Ruby engineers seeking new challenges to join our team in Tokyo. We offer a fun and supportive environment where engineers play a central role in decision-making.
+
+- company: JetBrains
+  job: Developer Advocate with Web and Ruby skills
+  description: JetBrains is looking for a Developer Advocate with Web and Ruby skills. Their role would be speaking at events, engaging with the community, creating content, and more. Apply today job@jetbrains.com.
+
+- company: WeTransfer
+  job: Ruby Engineer
+  url: https://wetransfer.homerun.co/ruby-developer
+  description: Every day, millions of people rely on WeTransfer to share their creative ideas. So, the work we do matters. Come and be a part of it.
