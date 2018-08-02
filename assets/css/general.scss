@@ -12,28 +12,28 @@
 
 
 header {
-    background: #ffffff url("/assets/images/header.svg") no-repeat right bottom;
-    background-size: 100% auto;
-    min-height: 600px;
-    padding: 0px;
+    background: linear-gradient(to top, #86e4ff, #ffffff);
+    min-height: 0;
 
     .layout-wrapper {
-        padding: 80px 20vw 0px 0px;
-        margin: 0 20px;
-        max-width: 1200px;
+        padding: 80px 0 0 0;
+        margin: 0;
+        flex-direction: column;
+        align-items: center;
     }
 
-    .mobile-header {
-        display: none;
-    }
-
-    h1 {
+    h1, h3 {
+        text-align: center;
         text-transform: uppercase;
     }
 
-    .button {
-        align-self: flex-start;
-        margin-top: 30px;
+    h3 {
+        margin-bottom: 40px;
+        max-width: 70vw;
+    }
+
+    img {
+        width: 100%;
     }
 }
 
@@ -49,31 +49,7 @@ content {
 
 
 @media (max-width: 980px) {
-    header {
-        flex-direction: column;
-        background: linear-gradient(to top, #86e4ff, #ffffff);
-        min-height: 0px;
-
-        .mobile-header {
-            margin-top: auto;
-            display: inline-block;
-            width: 100%;
-            height: auto;
-        }
-
-        .layout-wrapper {
-            padding: 40px 20px 20px 20px !important;
-            flex-basis: auto;
-            align-items: center;
-            margin: 0;
-        }
-
-        h1, h3 {
-            text-align: center;
-        }
-
-        .button {
-            align-self: center;
-        }
+    header .layout-wrapper {
+        padding: 40px 0 0 0;
     }
 }
