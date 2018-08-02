@@ -57,3 +57,32 @@
   url: https://www.xbav.de/karriere/ruby-rails-entwickler-mw
   job: Ruby on Rails Developer (Munich)
   description: "Your job would involve: Development and improvement of Rails Applications and REST APIs, Writing of effective, performant, self-descriptive and thoroughly tested code, Working in agile, cross-functional teams."
+
+- company: Cookpad
+  url: https://cookpad.workable.com/j/8829ECE51E
+  job: Senior Ruby Web Developer
+  description: You will be expert in Ruby on Rails, love writing tests, and have thorough knowledge of HTML, JavaScript, CSS, and SQL. With tens of millions of users per month, performance is always in mind and you will be adept at refactoring and debugging large applications.
+
+- company: Cookpad
+  url: https://cookpad.workable.com/j/404A8AD946
+  job: Search Engineer
+  description: The mission of the Cookpad Search team is to help every user find their ideal recipe to cook. As a search engineer you are responsible for everything from infrastructure, ranking, user experience, and data analysis.
+
+- company: Cookpad
+  url: https://cookpad.workable.com/j/6B53AF891D
+  job: Senior Site Reliability Engineer
+  description: Cookpad’s SRE’s are hybrid system and software engineers who take ownership of reliability, automation, and scalability. The focus is on systems and tools that enable developers to operate and scale the world’s largest recipe sharing community.
+
+- company: Degica
+  url: https://degica.com/en/jobs/2018-06-20-ruby-engineer-html
+  job: Ruby Engineer
+  description: Degica is looking for passionate Ruby engineers seeking new challenges to join our team in Tokyo. We offer a fun and supportive environment where engineers play a central role in decision-making.
+
+- company: JetBrains
+  job: Developer Advocate with Web and Ruby skills
+  description: JetBrains is looking for a Developer Advocate with Web and Ruby skills. Their role would be speaking at events, engaging with the community, creating content, and more. Apply today job@jetbrains.com.
+
+- company: WeTransfer
+  job: Ruby Engineer
+  url: https://wetransfer.homerun.co/ruby-developer
+  description: Every day, millions of people rely on WeTransfer to share their creative ideas. So, the work we do matters. Come and be a part of it.

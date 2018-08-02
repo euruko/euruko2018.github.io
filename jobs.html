@@ -13,7 +13,8 @@ layout: default
             We're hiring!
         </h1>
         <h3 class="fw-medium">
-            Are you looking for jobs, or bla bla bla bla bla bla bla bla bla bla bla bla
+            Are you looking for a job? Fancy moving to a new city? Or do you just care to browse career opportunities? See
+            below some of the positions that our sponsor have to offer you. P.S. Visit their booth for more information.
         </h3>
     </view>
 </header>
@@ -22,6 +23,7 @@ layout: default
     <section>
         <view class="layout-wrapper">
             {% for sponsor in site.data.sponsors %}
+            {% if sponsor.has_jobs %}
             <div class="job-header">
                 <a href="/jobs/{{ sponsor.key }}">
                     <img src="/assets/images/sponsors/{{ sponsor.logo }}" />
@@ -39,13 +41,16 @@ layout: default
                     <p class="description">
                         {{ job.description }}
                     </p>
+                    {% if job.url %}
                     <a href="{{ job.url }}" class="button bg-red c-white small">
                         Find out more
                     </a>
+                    {% endif %}
                 </div>
                 {% endif %}
                 {% endfor %}
             </div>
+            {% endif %}
             {% endfor %}
         </view>
     </section>
