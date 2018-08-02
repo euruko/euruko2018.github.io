@@ -7,12 +7,12 @@
         </div>
         <view class="responsive-wrapper">
             <view class="menu">
-                <a href="/schedule">Schedule</a>
-                <a href="/speakers">Speakers</a>
-                <a href="/venue">Location</a>
-                <a href="/sponsoring">Sponsors</a>
-                <a href="/coc">CoC</a>
-                <a href="/jobs">Jobs</a>
+                <a href="/schedule" {% if page.path == 'schedule.html' %}class="selected"{% endif %}>Schedule</a>
+                <a href="/speakers" {% if page.path == 'speakers.html' %}class="selected"{% endif %}>Speakers</a>
+                <a href="/venue" {% if page.path == 'venue.html' %}class="selected"{% endif %}>Location</a>
+                <a href="/sponsoring" {% if page.path == 'sponsoring.html' %}class="selected"{% endif %}>Sponsors</a>
+                <a href="/coc" {% if page.path == 'coc.html' %}class="selected"{% endif %}>CoC</a>
+                <a href="/jobs" {% if page.path == 'jobs.html' %}class="selected"{% endif %}>Jobs</a>
             </view>
 
             <a href="https://twitter.com/euruko/status/1022749219780739078" class="button bg-red" target="_blank" >Sold out!</a>
