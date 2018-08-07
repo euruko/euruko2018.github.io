@@ -34,14 +34,19 @@
   description: The identity and access management (IAM) team within the group is responsible for access control systems across all of our products. We keep our customers' data private, help our users administer large organizations, and provide services and abstractions for developers to build upon.
 
 - company: GitHub
-  url: https://boards.greenhouse.io/github/jobs/1231970
-  job: Ecosystem Events Engineer
-  description: The Ecosystem team is responsible for developing and expanding the availability of real-time data, as well as building on top of our REST and GraphQL APIs to receive and deliver data quickly and efficiently. You'll take ownership of existing platform primitives, as well as work cross-functionally to build completely new systems.
+  url: https://boards.greenhouse.io/github/jobs/1231963
+  job: Ecosystem Senior API Engineer
+  description: The engineers on GitHub's Ecosystem API team are responsible for the interfaces everyone uses to integrate with GitHub. These include our REST API and GraphQL API and are used by both internal GitHub engineers and external integrators. These integrations are key investments that GitHub is making, and you will be in the driver's seat to decide on what, where and how we invest.
 
 - company: GitHub
   url: https://boards.greenhouse.io/github/jobs/1152619
   job: Ecosystem Engineer, Marketplace
   description: You’ll work with our team of Ecosystem engineers, designers, and product managers to craft a cohesive experience for both our customers' integrators. The Ecosystem organization works together to ensure every part of our Platform is low friction and provides a high amount of value. Become part of the future of software development by joining our Marketplace team.
+
+- company: GitHub
+  url: https://boards.greenhouse.io/github/jobs/1161909
+  job: Application Engineer, Payments
+  description: We’re looking for an experienced application engineer to work on features and tooling in support of processing payments. You’ll work with our team of engineers, designers, and product managers to reduce friction in the process of paying for GitHub whether that be for a personal account or a large GitHub On Premise instance.
 
 - company: xbAV Personal
   url: https://www.xbav.de/karriere/senior-full-stack-software-engineer-mw
