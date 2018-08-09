@@ -74,6 +74,16 @@
   level: silver
   has_jobs: true
 
+- name: Rakuten
+  key: rakuten
+  logo: rakuten.png
+  url: www.rakuten.tv
+  description: RakutenTV is a VOD service providing the latest Hollywood releases
+  twitter: https://twitter.com/RakutenTV_DE
+  facebook: https://www.facebook.com/RakutenTV
+  level: silver
+  has_jobs: true
+
 - name: WeTransfer
   key: wetransfer
   logo: wetransfer.svg
