@@ -4,10 +4,20 @@
 
     .sponsor-wrapper {
         a {
-            margin: 30px 5px;
+            margin: 40px 15px;
 
             img {
-                height: 38px;
+                height: 50px;
+            }
+        }
+
+        &.small {
+            a {
+                margin: 20px 5px;
+
+                img {
+                    height: 34px;
+                }
             }
         }
     }
@@ -20,10 +30,20 @@
         }
         .sponsor-wrapper {
             a {
-                margin: 15px;
+                margin: 20px;
 
                 img {
-                    height: 20px;
+                    height: 30px;
+                }
+            }
+
+            &.small {
+                a {
+                    margin: 15px;
+
+                    img {
+                        height: 20px;
+                    }
                 }
             }
         }

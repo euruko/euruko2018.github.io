@@ -1,14 +1,38 @@
 <section class="sponsor-list">
     <view column class="layout-wrapper">
-            <view class="align-items-center h-flex-wrap justify-sb">
-                {% for sponsor in site.data.sponsors %}
-                <view class="sponsor-wrapper">
-                    <a href="{{ sponsor.url }}" target="_blank">
-                        <img src="/assets/images/sponsors/{{ sponsor.logo }}" />
-                    </a>
-                </view>
-                {% endfor %}
+        <view class="align-items-center h-flex-wrap justify-center">
+            <h1 class="h-hidden-phone">
+                with
+            </h1>
+            <img src="/assets/images/heart.svg" class="h-hidden-phone" style="height: 50px; width: auto; margin: 0 10px;"/>
+            <h1 class="h-hidden-phone">
+                from
+            </h1>
+            <view class="sponsor-wrapper">
+                <a href="{{ site.data.sponsors[0].url }}" target="_blank">
+                    <img src="/assets/images/sponsors/{{ site.data.sponsors[0].logo }}"/>
+                </a>
             </view>
+            <h1 class="h-hidden-phone">
+                &
+            </h1>
+            <view class="sponsor-wrapper">
+                <a href="{{ site.data.sponsors[1].url }}" target="_blank">
+                    <img src="/assets/images/sponsors/{{ site.data.sponsors[1].logo }}" style="height: 38px" />
+                </a>
+            </view>
+        </view>
+        <view class="align-items-center h-flex-wrap justify-sb">
+            {% for sponsor in site.data.sponsors %}
+                {% if sponsor.level != 'partner' and sponsor.level != 'platinum' %}
+                    <view class="sponsor-wrapper small">
+                        <a href="{{ sponsor.url }}" target="_blank">
+                            <img src="/assets/images/sponsors/{{ sponsor.logo }}" />
+                        </a>
+                    </view>
+                {% endif %}
+            {% endfor %}
+        </view>
         <hr class="bg-blue-gradient" />
     </view>
 </section>
