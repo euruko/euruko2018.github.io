@@ -1,11 +1,11 @@
 - company: Meister
-  job: Back-End Developer
+  job: Ruby Engineer
   description: We believe in Ruby on Rails - do you? In our backend position, expect challenging projects as you help to develop new features, make technological updates and design and implement integrations with 3rd party tools. You will work closely with both our front-end and other back-end developers.
   url: https://www.meisterlabs.com/jobs/backend-developer/
 
 - company: Meister
   url: https://www.meisterlabs.com/jobs/frontend-developer/
-  job: Front-End Developer
+  job: Front-End Engineer
   description: Have you got experience with JavaScript, HTML and CSS and want to work in a cutting-edge tech stack (React, Redux, Webpack,...) to develop modern, intuitive web apps? Or even better, you worked with React/ Redux before? Join MeisterLabs and help us make our apps even greater. We're looking for Junior and Senior developers to join us :-)
 
 - company: Meister
