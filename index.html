@@ -33,6 +33,20 @@ layout: default
   <section id="announcements" class="section-spacing">
     <view column class="layout-wrapper">
       <h2 class="section-header align-self-start">Announcements</h2>
+
+      <view class="announcements">
+        <view class="image" style='background-image: url("/assets/images/posts/meister_cover.jpg")'></view>
+        <view class="text-wrapper">
+          <h3 class="fw-bold">
+            Working at Meister - A Look Behind the Scenes
+          </h3>
+          <p>The Meister team is constantly growing, and there are plenty of great opportunities for RoR developers who
+            are looking for new adventures! If you’re thinking about applying and want to know what life is like as a
+            <a href="https://www.instagram.com/meisterlobsters/" target="_blank">MeisterLobster</a>, read on...</p>
+          <a href="meister.html" class="button bg-red align-self-start" >Read more...</a>
+        </view>
+      </view>
+
       {% for post in site.posts %}
       <view class="announcements">
         <view class="image" style='background-image: url("/assets/images/posts/{{ post.image }}")'></view>
