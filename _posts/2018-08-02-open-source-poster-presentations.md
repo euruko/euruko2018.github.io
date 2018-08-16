@@ -13,7 +13,7 @@ Do you have a favorite open source Ruby library or application that doesn't get 
 
 Describe the open source Ruby project for which you would like to create a poster and why it should be selected. If your poster is selected, it will be put up at the conference venue visible for all attendees, easily sparking conversations between you and the attendees!
 
-You will find all the details and requirements (one pre-condition is having a ticket to EuRuKo) in the [CFP form](https://goo.gl/forms/HiKHyZtPMYYRScCs1). Fill it out yourself and spread the word until August 12th 23:59 UTC!
+You will find all the details and requirements (one pre-condition is having a ticket to EuRuKo) in the [CFP form](https://goo.gl/forms/HiKHyZtPMYYRScCs1). Fill it out yourself and spread the word until August <span style="text-decoration: line-through">12th</span> 17th 23:59 UTC!
 
 That's all for now!
 
