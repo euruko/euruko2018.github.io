@@ -17,22 +17,22 @@ EuRuKo 2018 would not exist without the support of these great companies. Thanks
 ![cookpad-logo](https://euruko2018.org/assets/images/sponsors/cookpad.png)
 
 ## Heroku (Gold)
-![heroku-logo](https://euruko2018.org/assets/images/sponsors/heroku.png)
+![heroku-logo](https://euruko2018.org/assets/images/sponsors/heroku.svg)
 
 ## xbAV Personal (Gold)
-![xbav-logo](https://euruko2018.org/assets/images/sponsors/xbav.png)
+![xbav-logo](https://euruko2018.org/assets/images/sponsors/xbav.svg)
 
 ## Degica (Silver)
-![degica-logo](https://euruko2018.org/assets/images/sponsors/degica.png)
+![degica-logo](https://euruko2018.org/assets/images/sponsors/degica.svg)
 
 ## JetBrains (Silver)
-![jetbrains-logo](https://euruko2018.org/assets/images/sponsors/jetbrains.png)
+![jetbrains-logo](https://euruko2018.org/assets/images/sponsors/jetbrains.svg)
 
 ## Rakuten (Silver)
 ![rakuten-logo](https://euruko2018.org/assets/images/sponsors/rakuten.png)
 
 ## WeTransfer (Bronze)
-![wetransfer-logo](https://euruko2018.org/assets/images/sponsors/wetransfer.png)
+![wetransfer-logo](https://euruko2018.org/assets/images/sponsors/wetransfer.svg)
 
 ## Travis CI (Diversity Programme)
 ![travis-logo](https://euruko2018.org/assets/images/sponsors/travis.png)
