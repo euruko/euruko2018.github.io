@@ -12,21 +12,21 @@ EuRuKo 2018 would not exist without the support of these great companies. Thanks
 
 [Meister](https://meister.com) develops smart and intuitive web apps that help teams of all sizes and industries turn ideas into reality. Our flagship products MindMeister and MeisterTask support a complete creative workflow - from collaborative brainstorming to agile task management.
 
-[Check out their vacancies](https://euruko2018.org/jobs/meister)
+[Check out the vacancies at Meister](https://euruko2018.org/jobs/meister)
 
 ## GitHub (Platinum)
 ![github-logo](https://euruko2018.org/assets/images/sponsors/github.png)
 
 It takes a community to design, build, and ship great software. Building an application that integrates with [GitHub](https://github.com)? Register for our Developer Program! The possibilities are endless, and you enjoy the kudos. 
 
-[Check out their vacancies](https://euruko2018.org/jobs/github)
+[Check out the vacancies at GitHub](https://euruko2018.org/jobs/github)
 
 ## Cookpad (Gold)
 ![cookpad-logo](https://euruko2018.org/assets/images/sponsors/cookpad.png)
 
 [Cookpad](https://cookpadteam.com) is the largest recipe sharing community in the world with nearly 4 million recipes created by users active in 60 countries. Our purpose is to make everyday cooking fun.
 
-[Check out their vacancies](https://euruko2018.org/jobs/cookpad)
+[Check out the vacancies at Cookpad](https://euruko2018.org/jobs/cookpad)
 
 ## Heroku (Gold)
 ![heroku-logo](https://euruko2018.org/assets/images/sponsors/heroku.svg)
@@ -38,35 +38,35 @@ It takes a community to design, build, and ship great software. Building an appl
 
 [xbAV](https://xbav.de) is the leading technology provider for the digitization of occupational pensions (betriebliche Altersversorgung), with its head office in Munich. As an independent partner we connect insurers, product providers, social partners, insurance agents, employers and employees.
 
-[Check out their vacancies](https://euruko2018.org/jobs/xbav)
+[Check out the vacancies at xbAV](https://euruko2018.org/jobs/xbav)
 
 ## Degica (Silver)
 ![degica-logo](https://euruko2018.org/assets/images/sponsors/degica.svg)
 
 [Degica](https://degica.com) is a leading provider of Japanese digital commerce solutions. Our Ruby-powered e-commerce and digital payment technologies provide global businesses and developers the access they need to penetrate and succeed in the Japanese market.
 
-[Check out their vacancies](https://euruko2018.org/jobs/degica)
+[Check out the vacancies at Degica](https://euruko2018.org/jobs/degica)
 
 ## JetBrains (Silver)
 ![jetbrains-logo](https://euruko2018.org/assets/images/sponsors/jetbrains.svg)
 
 [JetBrains](https://jetbrains.com) creates intelligent, productivity-enhancing tools for software developers to simplify their challenging tasks and automate the routine ones. RubyMine is a powerful IDE designed for Ruby and Ruby on Rails developers.
 
-[Check out their vacancies](https://euruko2018.org/jobs/jetbrains)
+[Check out the vacancies at JetBrains](https://euruko2018.org/jobs/jetbrains)
 
-## Rakuten (Silver)
+## RakutenTV (Silver)
 ![rakuten-logo](https://euruko2018.org/assets/images/sponsors/rakuten.png)
 
 [RakutenTV](https://rakuten.tv) is a VOD service providing the latest Hollywood releases.
 
-[Check out their vacancies](https://euruko2018.org/jobs/rakuten)
+[Check out the vacancies at RakutenTV](https://euruko2018.org/jobs/rakuten)
 
 ## WeTransfer (Bronze)
 ![wetransfer-logo](https://euruko2018.org/assets/images/sponsors/wetransfer.svg)
 
 [WeTransfer](https://wetransfer.com) is the simplest way to send your files around the world. Every month, more than 40 million active users transfer over one billion files. The service is all about making the creative process effortless, for everyone.
 
-[Check out their vacancies](https://euruko2018.org/jobs/wetransfer)
+[Check out the vacancies at WeTransfer](https://euruko2018.org/jobs/wetransfer)
 
 ## Travis CI (Diversity Programme)
 ![travis-logo](https://euruko2018.org/assets/images/sponsors/travis.png)
