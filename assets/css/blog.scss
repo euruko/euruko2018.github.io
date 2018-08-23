@@ -17,7 +17,7 @@ article {
     }
   }
 
-  img {
+  img[src*="sponsors"] {
     max-width: 300px;
   }
 }
