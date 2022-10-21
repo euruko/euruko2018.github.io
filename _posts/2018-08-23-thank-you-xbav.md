@@ -9,8 +9,4 @@ We are proud [xbAV](https://xbav.de) is supporting our community at EuRuKo this 
 
 ## Hello from Munich. We are excited to see you at Euruko 2018 soon!
 
-![xbav-team](https://euruko2018.org/assets/images/posts/xbav-thanks.jpg)
-
-
-
-
+![xbav-team](https://2018.euruko.org/assets/images/posts/xbav-thanks.jpg)

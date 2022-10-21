@@ -8,72 +8,72 @@ image: thankyousponsors.jpg
 EuRuKo 2018 would not exist without the support of these great companies. Thanks a lot for supporting our conference and the Ruby community as a whole! Please go check these awesome companies out!
 
 ## Meister (Partner)
-![meister-logo](https://euruko2018.org/assets/images/sponsors/meisterlabs.svg)
+![meister-logo](https://2018.euruko.org/assets/images/sponsors/meisterlabs.svg)
 
 [Meister](https://meister.com) develops smart and intuitive web apps that help teams of all sizes and industries turn ideas into reality. Our flagship products MindMeister and MeisterTask support a complete creative workflow - from collaborative brainstorming to agile task management.
 
-[Check out the vacancies at Meister](https://euruko2018.org/jobs/meister)
+[Check out the vacancies at Meister](https://2018.euruko.org/jobs/meister)
 
 ## GitHub (Platinum)
-![github-logo](https://euruko2018.org/assets/images/sponsors/github.png)
+![github-logo](https://2018.euruko.org/assets/images/sponsors/github.png)
 
-It takes a community to design, build, and ship great software. Building an application that integrates with [GitHub](https://github.com)? Register for our Developer Program! The possibilities are endless, and you enjoy the kudos. 
+It takes a community to design, build, and ship great software. Building an application that integrates with [GitHub](https://github.com)? Register for our Developer Program! The possibilities are endless, and you enjoy the kudos.
 
-[Check out the vacancies at GitHub](https://euruko2018.org/jobs/github)
+[Check out the vacancies at GitHub](https://2018.euruko.org/jobs/github)
 
 ## Cookpad (Gold)
-![cookpad-logo](https://euruko2018.org/assets/images/sponsors/cookpad.png)
+![cookpad-logo](https://2018.euruko.org/assets/images/sponsors/cookpad.png)
 
 [Cookpad](https://cookpadteam.com) is the largest recipe sharing community in the world with nearly 4 million recipes created by users active in 60 countries. Our purpose is to make everyday cooking fun.
 
-[Check out the vacancies at Cookpad](https://euruko2018.org/jobs/cookpad)
+[Check out the vacancies at Cookpad](https://2018.euruko.org/jobs/cookpad)
 
 ## Heroku (Gold)
-![heroku-logo](https://euruko2018.org/assets/images/sponsors/heroku.svg)
+![heroku-logo](https://2018.euruko.org/assets/images/sponsors/heroku.svg)
 
 [Heroku](https://heroku.com/home), a Salesforce company and industry pioneer in platform as a service (PaaS), enables developers to build and run applications entirely in the cloud, without the need to purchase or maintain any servers or software.
 
 ## xbAV Personal (Gold)
-![xbav-logo](https://euruko2018.org/assets/images/sponsors/xbav.svg)
+![xbav-logo](https://2018.euruko.org/assets/images/sponsors/xbav.svg)
 
 [xbAV](https://xbav.de) is the leading technology provider for the digitization of occupational pensions (betriebliche Altersversorgung), with its head office in Munich. As an independent partner we connect insurers, product providers, social partners, insurance agents, employers and employees.
 
-[Check out the vacancies at xbAV](https://euruko2018.org/jobs/xbav)
+[Check out the vacancies at xbAV](https://2018.euruko.org/jobs/xbav)
 
 ## Degica (Silver)
-![degica-logo](https://euruko2018.org/assets/images/sponsors/degica.svg)
+![degica-logo](https://2018.euruko.org/assets/images/sponsors/degica.svg)
 
 [Degica](https://degica.com) is a leading provider of Japanese digital commerce solutions. Our Ruby-powered e-commerce and digital payment technologies provide global businesses and developers the access they need to penetrate and succeed in the Japanese market.
 
-[Check out the vacancies at Degica](https://euruko2018.org/jobs/degica)
+[Check out the vacancies at Degica](https://2018.euruko.org/jobs/degica)
 
 ## JetBrains (Silver)
-![jetbrains-logo](https://euruko2018.org/assets/images/sponsors/jetbrains.svg)
+![jetbrains-logo](https://2018.euruko.org/assets/images/sponsors/jetbrains.svg)
 
 [JetBrains](https://jetbrains.com) creates intelligent, productivity-enhancing tools for software developers to simplify their challenging tasks and automate the routine ones. RubyMine is a powerful IDE designed for Ruby and Ruby on Rails developers.
 
-[Check out the vacancies at JetBrains](https://euruko2018.org/jobs/jetbrains)
+[Check out the vacancies at JetBrains](https://2018.euruko.org/jobs/jetbrains)
 
 ## RakutenTV (Silver)
-![rakuten-logo](https://euruko2018.org/assets/images/sponsors/rakuten.png)
+![rakuten-logo](https://2018.euruko.org/assets/images/sponsors/rakuten.png)
 
 [RakutenTV](https://rakuten.tv) is a VOD service providing the latest Hollywood releases.
 
-[Check out the vacancies at RakutenTV](https://euruko2018.org/jobs/rakuten)
+[Check out the vacancies at RakutenTV](https://2018.euruko.org/jobs/rakuten)
 
 ## WeTransfer (Bronze)
-![wetransfer-logo](https://euruko2018.org/assets/images/sponsors/wetransfer.svg)
+![wetransfer-logo](https://2018.euruko.org/assets/images/sponsors/wetransfer.svg)
 
 [WeTransfer](https://wetransfer.com) is the simplest way to send your files around the world. Every month, more than 40 million active users transfer over one billion files. The service is all about making the creative process effortless, for everyone.
 
-[Check out the vacancies at WeTransfer](https://euruko2018.org/jobs/wetransfer)
+[Check out the vacancies at WeTransfer](https://2018.euruko.org/jobs/wetransfer)
 
 ## Travis CI (Diversity Programme)
-![travis-logo](https://euruko2018.org/assets/images/sponsors/travis.png)
+![travis-logo](https://2018.euruko.org/assets/images/sponsors/travis.png)
 
 [Travis CI](https://travis-ci.com/?utm_source=EURUKO2018) is a continuous integration and delivery platform, used by tens of thousands of developers, teams and Open Source projects. We run people's tests, deploy their code and help them be confident about their work.
 
 ## Twilio (Diversity Programme)
-![twilio-logo](https://euruko2018.org/assets/images/sponsors/twilio.png)
+![twilio-logo](https://2018.euruko.org/assets/images/sponsors/twilio.png)
 
 [Twilio](https://twilio.com) has democratized communications channels like voice, text, chat, and video by virtualizing the world’s telecommunications infrastructure through APIs that are simple enough for any developer to use, yet robust enough to power the world’s most demanding applications.

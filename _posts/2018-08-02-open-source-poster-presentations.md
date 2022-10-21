@@ -5,7 +5,7 @@ date: 2018-08-02 08:00:00 +0100
 image: speakers.png
 ---
 
-The speakers for this year's conference are [already revealed](https://euruko2018.org/2018/06/13/speakers-announced.html) and we have an exciting lineup waiting for you - [check out our speakers](https://euruko2018.org/speakers/)!
+The speakers for this year's conference are [already revealed](https://2018.euruko.org/2018/06/13/speakers-announced.html) and we have an exciting lineup waiting for you - [check out our speakers](https://2018.euruko.org/speakers/)!
 
 In addition to the standard speaker CFP and the on-site lightning talk selection we also like to try something new this year: **Open Source Poster Presentations**!
 
